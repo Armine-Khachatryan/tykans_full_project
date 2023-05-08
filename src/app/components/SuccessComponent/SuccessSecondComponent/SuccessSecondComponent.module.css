@@ -1,0 +1,96 @@
+
+/*.successInfo{*/
+/*    padding-top: 80px;*/
+/*    padding-bottom: 80px;*/
+/*    display: flex*/
+/*}*/
+
+/*.successCard:nth-child(even){*/
+/*    background-color: #F4EBEB;*/
+/*}*/
+
+/*.imgDiv{*/
+/*    max-width: 530px;*/
+/*    width: 100%;*/
+/*    height: 530px;*/
+/*    margin-right: 50px;*/
+/*}*/
+
+/*.successImg{*/
+/*    border-radius: 100%;*/
+/*    height: 100%;*/
+/*    object-fit: cover;*/
+/*}*/
+
+/*.successCardTitle{*/
+/*    margin-bottom: 50px;*/
+/*    font-family: Effra_Trial_Bold, sans-serif;*/
+/*    font-style: normal;*/
+/*    font-weight: 600;*/
+/*    font-size: 64px;*/
+/*    line-height: 76px;*/
+/*    color: #16145F;*/
+/*}*/
+
+
+/*.cardBelowPart{*/
+/*    display: flex;*/
+/*}*/
+
+/*.cardLeft{*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    margin-right: 24px;*/
+/*    width: 500px*/
+/*}*/
+
+
+/*.arrowAndBtn {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    margin-bottom: 32px;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*.arrowImg{*/
+/*    margin-right: 16px;*/
+/*}*/
+
+
+/*.btn{*/
+/*    font-family: Effra_Trial_Regular, sans-serif;*/
+/*    font-style: normal;*/
+/*    font-weight: 400;*/
+/*    font-size: 48px;*/
+/*    line-height: 57px;*/
+/*    color: #16145F;*/
+
+/*}*/
+
+
+/*.infoText{*/
+/*    font-family: Effra_Trial_Regular, sans-serif;*/
+/*    font-style: normal;*/
+/*    font-weight: 400;*/
+/*    font-size: 24px;*/
+/*    line-height: 36px;*/
+/*    color: #24205B;*/
+/*}*/
+
+
+/*.cardRight{*/
+/*    width: 500px;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*}*/
+
+
+/*.grey{*/
+/*    color: #939393;*/
+/*}*/
+
+/*.blue{*/
+/*    color: #16145F;}*/
+
+
+

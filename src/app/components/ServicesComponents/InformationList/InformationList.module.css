@@ -1,0 +1,167 @@
+.cardInfo {
+    padding-right: 40px;
+    padding-left: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 16px rgba(107, 155, 242, 0.3);
+    border-radius: 0px 0px 16px 16px;
+    margin-right: 24px;
+    max-width: 557px;
+    width: 100%;
+    position: relative;
+    padding-bottom: 32px;
+}
+.cardInfo:hover{
+    border: 2px solid #16145F;
+}
+.allInOne{
+    display: flex;
+}
+.imgInfo{
+    width: 265px;
+    height: 265px;
+    position: absolute;
+    top: -17%;
+    left: 27%;
+}
+.titleInfo{
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #16145F;
+    margin-bottom: 32px;
+    padding-top: 180px;
+    text-align: center;
+}
+.textInfo{
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #16145F;
+    margin-bottom: 24px;
+}
+.textInfo:last-child{
+    margin-bottom: 32px;
+}
+.readMoreInfo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #EAB531;
+    padding-left: 28px;
+}
+.yellowBookImgInfo{
+    margin-right: 10px;
+}
+.allInOneMobile{
+    display: none;
+}
+@media only screen and (min-width: 1596px) and (max-width: 1750px) {
+    .imgInfo{
+        width: 225px;
+        height: 225px;
+        position: absolute;
+        top: -12%;
+        left: 27%;
+    }
+}
+@media only screen and (min-width: 1441px) and (max-width: 1596px) {
+    .imgInfo{
+        width: 225px;
+        height: 225px;
+        position: absolute;
+        top: -8%;
+        left: 25%;
+    }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+    .titleInfo{
+        min-height: 260px;
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .textInfo{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .cardInfo:last-child{
+       margin-right: 0;
+    }
+}
+@media only screen and (min-width: 1284px) and (max-width: 1440px) {
+    .imgInfo {
+        width: 225px;
+        height: 225px;
+        top: -11%;
+        left: 20%;
+    }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1284px) {
+    .imgInfo {
+        width: 225px;
+        height: 225px;
+        top: -11%;
+        left: 15%;
+    }
+}
+@media only screen and (min-width: 965px) and (max-width: 1024px) {
+    .imgInfo {
+        width: 200px;
+        height: 200px;
+        top: -7%;
+        left: 16%;
+    }
+}
+@media only screen and (min-width: 865px) and (max-width: 965px) {
+    .imgInfo{
+        width: 200px;
+        height: 200px;
+        top: -7%;
+        left: 12%;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 865px) {
+    .imgInfo{
+        width: 200px;
+        height: 200px;
+        top: -7%;
+        left:3%;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .titleInfo{
+        min-height: 260px;
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .textInfo{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .cardInfo:last-child{
+        margin-right: 0;
+    }
+}
+@media only screen  and (max-width: 768px) {
+    .imgInfo{
+        width: 200px;
+        height: 200px;
+        top: -5%;
+        left: 8%;
+    }
+    .allInOne{
+        display: none;
+    }
+    .allInOneMobile{
+        display: block;
+        position: relative;
+    }
+}

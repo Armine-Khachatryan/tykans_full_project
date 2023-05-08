@@ -1,0 +1,1067 @@
+* {
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+}
+body{
+    background-color: #F5F5F5;
+    min-height: 100vh;
+    width:100%;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    max-width: 1750px;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    z-index: 10;
+}
+.containerInside{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 204px;
+}
+.subTitle{
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 58px;
+    color: #16145F;
+    margin-bottom: 32px;
+}
+.circleBig{
+    border-radius: 100%;
+    height: 100%;
+    object-fit:cover;
+    /*display: block;*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    /*width: 100%;*/
+}
+.spaceNoWrap{
+    white-space: nowrap;
+}
+.textStyle{
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #16145F;
+    margin-bottom: 24px;
+}
+.unselected{
+    font-family: Montserrat_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: #EAB531;
+}
+.readMore{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #16145F;
+    cursor: pointer;
+}
+.buttonsDiv{
+    display: flex;
+}
+.firstBtn{
+    margin-right: 24px;
+}
+.blueBookImg{
+    margin-right: 10px;
+}
+.somePadding{
+    justify-content: flex-start;
+}
+.leftAlign{
+    justify-content: flex-start;
+}
+.part1BackImg{
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 800px;
+    min-height: 255px;
+}
+.part1BackImg::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 0;
+}
+.titleServices {
+    display: flex;
+    width:max-content;
+    margin-bottom: 100px;
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 76px;
+    color: #EAB531;
+    padding-bottom: 16px;
+    border-bottom: 6px solid #FFFFFF;
+    z-index:1
+}
+.modalImg{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+.redTitle{
+    color: #92374D
+}
+.blueTitle{
+    color: #16145F;
+}
+.yellowOneTitle{
+    color: #B96118;
+}
+.teamMemberOne{
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+.teamMemberOne:nth-child(even){
+    background: #F0EFFF;
+}
+.teamMemberOne:nth-child(even) svg path {
+    fill:#92374D;
+}
+.teamMemberOneDiv{
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.memberInfoMiddlePart{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.teamMemberOne:nth-child(even) .memberInfoMiddlePart{
+    flex-direction: row-reverse;
+}
+.teamMemberOne:nth-child(odd) .memberProfileInfo{
+    margin-right: 60px;
+}
+.teamMemberOne:nth-child(even) .memberInfo{
+    margin-right: 60px;
+}
+.memberProfileInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.memberPhotoDiv{
+    width: 250px;
+    height: 250px;
+    margin-bottom: 8px;
+}
+.memberPhoto{
+    border-radius: 100%;
+    height: 100%;
+}
+.memberName{
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    color: #B96118;
+}
+.teamMemberOne:nth-child(even) .memberName:nth-child(even){
+    color: #92374D;
+}
+.memberPosition{
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #16145F;
+}
+.memberInfo{
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    color: #16145F;
+    max-width: 1174px;
+    width: 100%;
+}
+.alignRightMember{
+    display: flex;
+    align-self: flex-end;
+}
+.center{
+    background-position: top!important;
+}
+.centerText{
+    text-align: center;
+}
+.mainTitleAndDatePolicy{
+    margin-bottom: 100px;
+    background: #16145F;
+}
+.upperDivPolicy{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mainTitlePolicy{
+    font-family: Effra_Trial_Bold, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 72px;
+    color: #FFFFFF;
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.datePolicy{
+    font-family: Effra_Trial_Bold, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.titlePolicy{
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 57px;
+    color: #16145F;
+    margin-bottom: 64px;
+}
+.textPolicy{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #16145F;
+    margin-bottom: 100px;
+}
+.header_dropDown {
+    position: relative;
+}
+.header_dropDown_content {
+    background: white;
+    height: 350px;
+    position: absolute;
+    top: 130%;
+    right: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 300px;
+    padding: 20px 20px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+}
+.modalInside{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.closingModal{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    cursor: pointer;
+    margin-bottom: 32px;
+    margin-right: 40px;
+    margin-top: 25px;
+}
+.closeWord{
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #939393;
+    margin-left: 8px;
+}
+.modalTitleGroup{
+    display: flex;
+    align-items: center;
+    margin-bottom: 48px;
+}
+.modalTitles{
+    margin-left: 40px;
+}
+.modalTitle{
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 76px;
+    color: #92374D;
+    margin-bottom: 4px;
+}
+.modalSubTitle{
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: #16145F;
+    max-width: 500px;
+    width: 100%;
+}
+.modalLi{
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #24205B;
+}
+.modalBtn{
+    display: flex;
+    align-self: center;
+    padding: 21px 32px;
+    margin-top: 15px;
+    background: #92374D;
+    border-radius: 360px;
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+.modalBtn:hover{
+    box-shadow: 0px 0px 16px 0px #6B9BF2;
+}
+.orange{
+    color: #B96118;
+}
+.orangeBtn{
+    background-color:#B96118;
+}
+.yellow{
+    color:  #EAB531;
+}
+.yellowBtn{
+    background-color:  #EAB531;
+}
+.green{
+    color: #6AAB4F;
+}
+.greenBtn{
+    background-color: #6AAB4F;
+}
+.blue{
+    color: #214381;
+}
+.blueBtn{
+    background-color: #214381;
+}
+.max-width{
+    display: none;
+}
+@media only screen and (max-width: 768px) {
+    .max-width{
+        display: block;
+    }
+    .swiper-button-next:after, .max_width .swiper-rtl .swiper-button-prev:after {
+        display: none;
+    }
+    .swiper-button-prev:after{
+        display: none;
+    }
+    .max_width .swiper-wrapper{
+        margin-bottom: 100px;
+    }
+    .readMoreCenter{
+        justify-content: center;
+        font-size: 16px;
+        line-height: 19px;
+    }
+}
+@media only screen and (max-width: 1023px) {
+    .max_width .swiper{
+        margin-bottom: 50px;
+    }
+}
+@media only screen  and (min-width:1025px) and (max-width: 1920px) {
+    .container{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+@media only screen  and (min-width:768px) and (max-width: 1023px) {
+    .swiperOffer {
+        max-width: 700px;
+        width: 100%;
+        margin: auto;
+    }
+    .swiperOffer .swiper-button-next:after, .swiperOffer .swiper-rtl .swiper-button-prev:after {
+        font-size: 28px
+    }
+    .swiperOffer .swiper-button-prev:after{
+        font-size: 28px
+    }
+}
+@media only screen  and (min-width:550px) and (max-width: 768px) {
+    .swiperOffer{
+        max-width: 500px;
+        width: 100%;
+        margin: auto;
+    }
+    .swiperOffer .swiper-button-next:after, .swiperOffer .swiper-rtl .swiper-button-prev:after {
+        font-size: 28px
+    }
+    .swiperOffer .swiper-button-prev:after{
+        font-size: 28px
+    }
+}
+@media only screen  and (min-width:425px) and (max-width: 550px) {
+    .swiperOffer{
+        max-width: 400px;
+        width: 100%;
+        margin: auto;
+    }
+    .swiperOffer .swiper-button-next:after, .swiperOffer .swiper-rtl .swiper-button-prev:after {
+        font-size: 24px
+    }
+    .swiperOffer .swiper-button-prev:after{
+        font-size: 24px
+    }
+    .swiperOffer .swiper-pagination{
+        bottom:30px
+    }
+}
+@media only screen  and (max-width: 425px) {
+    .swiperOffer{
+        max-width: 320px;
+        width: 100%;
+        margin: auto;
+    }
+    .swiperOffer .swiper-pagination{
+        bottom:30px
+    }
+    .swiperOffer .swiper-button-next:after, .swiperOffer .swiper-rtl .swiper-button-prev:after {
+        font-size: 22px
+    }
+    .swiperOffer .swiper-button-prev:after{
+        font-size: 22px
+    }
+}
+@media only screen  and (min-width:550px) and (max-width: 768px) {
+    .max_width{
+        max-width: 500px;
+        width: 100%;
+    }
+    .max_width .swiper-button-next:after, .max_width .swiper-rtl .swiper-button-prev:after {
+        font-size: 28px
+    }
+    .max_width .swiper-button-prev:after{
+        font-size: 28px
+    }
+}
+@media only screen  and (min-width:425px) and (max-width: 550px) {
+    .max_width{
+        max-width: 400px;
+        width: 100%;
+    }
+    .max_width .swiper-button-next:after, .max_width .swiper-rtl .swiper-button-prev:after {
+        font-size: 24px
+    }
+    .max_width .swiper-button-prev:after{
+        font-size: 24px
+    }
+}
+@media only screen  and (max-width: 425px) {
+    .max_width{
+        max-width: 320px;
+        width: 100%;
+    }
+    .max_width .swiper-button-next:after, .max_width .swiper-rtl .swiper-button-prev:after {
+        font-size: 22px
+    }
+    .max_width .swiper-button-prev:after{
+        font-size: 22px
+    }
+}
+@media only screen and (max-width: 350px) {
+    .header_dropDown_content {
+        width: 250px;
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 769px) {
+    .flexDirection{
+        margin-bottom: 0!important;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .mavrick .swiper-pagination-bullets.swiper-pagination-horizontal{
+        bottom: 60px !important;
+    }
+}
+@media only screen and (min-width:1440px) and (max-width: 1700px) {
+    .memberName{
+        font-size: 30px;
+        line-height: 44px;
+    }
+    .memberPosition{
+        font-size: 22px;
+        line-height: 32px;
+        text-align: center;
+    }
+    .memberInfo{
+        font-size: 42px;
+        line-height: 66px;
+        max-width: 1000px;
+    }
+    .teamMemberOne svg  {
+        width: 65px;
+        height: 65px;
+    }
+    .teamMemberOneDiv{
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .titleServices {
+        font-size: 64px;
+        line-height: 76px;
+        padding-bottom: 16px;
+    }
+    .subTitle{
+        font-size: 42px;
+        line-height: 54px;
+    }
+}
+@media only screen and (min-width:1024px) and (max-width: 1440px) {
+    .memberName{
+        font-size: 30px;
+        line-height: 44px;
+    }
+    .memberPosition{
+        font-size: 22px;
+        line-height: 32px;
+        text-align: center;
+    }
+    .memberInfo{
+        font-size: 38px;
+        line-height: 43px;
+        max-width: 900px;
+    }
+    .teamMemberOne svg  {
+        width: 60px;
+        height: 60px;
+    }
+    .memberPhotoDiv{
+        width: 200px;
+        height: 200px;
+    }
+    .teamMemberOneDiv{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .titleServices {
+        font-size: 55px;
+        line-height: 62px;
+        padding-bottom: 13px;
+    }
+    .subTitle{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .modalTitle{
+        font-size: 55px;
+        line-height: 72px;
+    }
+    .modalSubTitle{
+        font-size: 38px;
+        line-height: 44px;
+    }
+}
+@media only screen and (min-width:768px) and (max-width: 1025px) {
+    .container {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+@media only screen and (min-width:1024px) and (max-width: 1430px) {
+    .flexDirection{
+        flex-direction: column;
+    }
+}
+@media only screen and (min-width:768px) and (max-width: 1024px) {
+    .part1BackImg{
+        height: 500px;
+    }
+    .flexDirection{
+        flex-direction: column;
+    }
+    .memberName{
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .memberPosition{
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .memberInfo{
+        font-size: 32px;
+        line-height: 40px;
+        max-width: 700px;
+    }
+    .teamMemberOne svg  {
+        width: 50px;
+        height: 50px;
+    }
+    .memberPhotoDiv{
+        width:150px;
+        height: 150px;
+    }
+    .teamMemberOneDiv{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .titleServices {
+        font-size: 50px;
+        line-height: 55px;
+        margin-bottom: 50px;
+        padding-bottom: 8px;
+    }
+    .subTitle{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .textStyle{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .modalTitle{
+        font-size: 50px;
+        line-height: 55px;
+    }
+    .modalSubTitle{
+        font-size: 36px;
+        line-height: 42px;
+    }
+    .modalLi{
+        font-size: 22px;
+        line-height: 25px;
+    }
+    .modalBtn{
+        padding: 15px 25px;
+        font-size:  22px;
+        line-height: 25px;
+    }
+    .closingModal{
+        margin-bottom: 26px;
+        margin-right: 40px;
+    }
+    .closeWord{
+        font-size:  22px;
+        line-height: 25px;
+        margin-left: 3px;
+    }
+    .closeModalImg{
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@media only screen and (min-width:425px) and (max-width: 768px) {
+    .memberName{
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .memberInfoMiddlePart{
+        flex-direction: column;
+        align-items: center;
+    }
+    .part1BackImg{
+        height: 255px;
+    }
+    .memberPosition{
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .memberInfo{
+        font-size: 30px;
+        line-height: 36px;
+        max-width: 700px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .teamMemberOne svg  {
+        width: 40px;
+        height: 40px;
+    }
+    .memberPhotoDiv{
+        width:150px;
+        height: 150px;
+    }
+    .teamMemberOneDiv{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .firstBtn {
+        margin: 0 auto 0;
+    }
+    .titleServices {
+        font-size: 32px;
+        line-height: 38px;
+        margin: 20px auto 40px;
+        padding-bottom: 0;
+        border-bottom: none;
+    }
+    .subTitle{
+        font-size:24px;
+        line-height:30px;
+    }
+    .textStyle{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .modalInside{
+        margin-left:10px;
+        margin-right:10px
+    }
+    .modalTitle{
+        font-size:32px;
+        line-height: 38px;
+    }
+    .modalSubTitle{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .modalLi{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .modalBtn{
+        padding: 15px 25px;
+        font-size: 16px;
+        margin-top: 15px;
+        line-height: 20px;
+        margin-bottom: 0;
+    }
+    .closingModal {
+        margin-top: 0
+    }
+    .closeWord{
+        font-size: 16px;
+        line-height: 20px;
+        margin-left: 3px;
+    }
+    .closeModalImg{
+        width: 22px;
+        height: 22px;
+    }
+    .modalImg{
+        width:100px;
+        height: 100px;
+        border-radius: 100%;
+    }
+    .teamMemberOne:nth-child(even) .memberInfoMiddlePart{
+        flex-direction: column;
+    }
+    .teamMemberOne:nth-child(odd) .memberProfileInfo{
+        margin-right: 15px;
+    }
+    .teamMemberOne:nth-child(even) .memberInfo{
+        margin-right: 15px;
+    }
+    .flexDirection{
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .memberName{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .memberInfoMiddlePart{
+        flex-direction: column;
+        align-items: center;
+    }
+    .teamMemberOne:nth-child(even) .memberInfoMiddlePart{
+        flex-direction: column;
+    }
+    .part1BackImg{
+        height: 255px;
+    }
+    .memberPosition{
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .firstBtn {
+        margin: 0 auto 0;
+    }
+    .memberInfo{
+        font-size: 20px;
+        line-height: 30px;
+        max-width: 700px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .teamMemberOne svg  {
+        width: 30px;
+        height: 30px;
+    }
+    .memberPhotoDiv{
+        width:100px;
+        height: 100px;
+    }
+    .teamMemberOneDiv{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .titleServices {
+        font-size: 32px;
+        line-height: 38px;
+        margin: 20px auto 50px;
+        padding-bottom: 0;
+        border-bottom: none;
+    }
+    .subTitle{
+        font-size:24px;
+        line-height:30px;
+    }
+    .textStyle{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .modalInside{
+        margin-left:0;
+        margin-right: 0;
+    }
+    .closingModal {
+        margin-top: 0
+    }
+    .modalTitleGroup{
+        flex-direction: column;
+        margin-bottom: 24px;
+    }
+    .modalTitles{
+        margin-left: 0;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .modalTitle{
+        font-size:32px;
+        line-height: 38px;
+    }
+    .modalSubTitle{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .modalLi{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .modalBtn{
+        font-size: 16px;
+        line-height: 20px;
+        padding: 12px 20px;
+        max-width: 200px;
+        margin-bottom:10px;
+    }
+    .modalImg{
+        width:100px;
+        height: 100px;
+        border-radius: 100%;
+    }
+    .closeWord{
+        font-size: 16px;
+        line-height: 20px;
+        margin-left: 3px;
+    }
+    .closeModalImg{
+        width: 22px;
+        height: 22px;
+    }
+    .modalImg{
+        width:100px;
+        height: 100px;
+        border-radius: 100%;
+    }
+    .closingModal{
+        margin-right: 0;
+        justify-content: center;
+        margin-bottom: 22px;
+    }
+    .teamMemberOne:nth-child(odd) .memberProfileInfo{
+        margin-right: 15px;
+    }
+    .teamMemberOne:nth-child(even) .memberInfo{
+        margin-right: 15px;
+    }
+}
+@media only screen and (min-width:1024px) and (max-width: 1440px) {
+    .titlePolicy{
+        font-size: 40px;
+        line-height:50px;
+        margin-bottom: 32px;
+    }
+    .mainTitlePolicy{
+        font-size: 55px;
+        line-height:62px;
+    }
+}
+@media only screen and (min-width:768px) and (max-width: 1024px) {
+    .mainTitleAndDatePolicy {
+        margin-bottom: 80px;
+    }
+    .titlePolicy{
+        font-size: 40px;
+        line-height:50px;
+        margin-bottom: 32px;
+    }
+    .mainTitlePolicy{
+        font-size: 50px;
+        line-height:55px;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    .datePolicy{
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+}
+@media only screen and (min-width:425px) and (max-width: 768px) {
+    .mainTitleAndDatePolicy {
+        margin-bottom: 50px;
+    }
+    .mainTitlePolicy{
+        font-size: 32px;
+        line-height:38px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .datePolicy{
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: 50px;
+        margin-bottom:50px;
+    }
+    .titlePolicy{
+        font-size: 24px;
+        line-height:30px;
+        margin-bottom: 22px;
+    }
+    .textPolicy{
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 40px;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .mainTitleAndDatePolicy {
+        margin-bottom: 50px;
+    }
+    .upperDivPolicy{
+        flex-direction: column;
+    }
+    .mainTitlePolicy{
+        font-size: 24px;
+        line-height:29px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    .datePolicy{
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: 0px;
+        margin-bottom:50px;
+    }
+    .titlePolicy{
+        font-size: 24px;
+        line-height:30px;
+        margin-bottom: 22px;
+        text-align: center;
+    }
+    .textPolicy{
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+}
+@font-face {
+    font-family: Effra_Trial_Light;
+    src: url(app/assets/fonts/Effra/Effra_Trial_Lt.ttf);
+}
+@font-face {
+    font-family: Effra_Trial_Regular;
+    src: url(app/assets/fonts/Effra/Effra_Trial_Rg.ttf);
+}
+@font-face {
+    font-family: Effra_Trial_Medium;
+    src: url(app/assets/fonts/Effra/Effra_Trial_Md.ttf);
+}
+@font-face {
+    font-family: Effra_Trial_Bold;
+    src: url(app/assets/fonts/Effra/Effra_Trial_Bd.ttf);
+}
+@font-face {
+    font-family: Montserrat_Light;
+    src: url(app/assets/fonts/Montserrat/Montserrat_Light.ttf);
+}
+@font-face {
+    font-family: Montserrat_Regular;
+    src: url(app/assets/fonts/Montserrat/Montserrat_Regular.ttf);
+}
+@font-face {
+    font-family: Montserrat_Medium;
+    src: url(app/assets/fonts/Montserrat/Montserrat_Medium.ttf);
+}
+@font-face {
+    font-family: Montserrat_SemiBold;
+    src: url(app/assets/fonts/Montserrat/Montserrat_SemiBold.ttf);
+}
+@font-face {
+    font-family: Montserrat_Bold;
+    src: url(app/assets/fonts/Montserrat/Montserrat_Bold.ttf);
+}
+
+

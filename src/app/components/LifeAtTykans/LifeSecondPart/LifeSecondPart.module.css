@@ -1,0 +1,207 @@
+.backgroundBlueLife{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-position: bottom;
+    min-height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../../../assets/images/Frame2.png");
+    height: 995px;
+    max-height: 995px;
+    z-index: 2;
+}
+.LeftPartLifeWorking {
+    max-width: 1150px;
+    width: 100%;
+}
+.titleLifeWorking{
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 76px;
+    color: #F9F9F9;
+    margin-top: 177px;
+    max-width: 1150px;
+    width: 100%;
+}
+.titleLifeWorking:last-child{
+    margin-top: 0
+}
+.buttonsDivLife{
+    display: flex;
+}
+.textLifeWorking{
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    max-width: 703px;
+    width: 100%;
+    margin-top: 24px;
+}
+.rightPartLifeWorking{
+    display: flex;
+    padding-top: 80px;
+}
+.lifeImgDiv1{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    align-self: center;
+}
+.lifeImg1{
+    border-radius: 100%;
+    height: 100%;
+    width: 100%;
+}
+.lifeImgDiv2{
+    width: 250px;
+    height: 250px;
+    margin-bottom: 59px;
+}
+.lifeImg2{
+    border-radius: 100%;
+    height: 100%;
+    width: 100%;
+}
+.lifeImgDiv3{
+    width: 370px;
+    height: 370px;
+}
+.firstBtnLife{
+    margin-right: 24px
+}
+.lifeImg3 {
+    border-radius: 100%;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.imagesLife{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media only screen and (max-width: 1600px) {
+    .backgroundBlueLife{
+        background-image:none;
+        background-color: #16145F;
+        height:max-content;
+        min-height: unset;
+    }
+}
+@media only screen and (min-width:1024px) and (max-width: 1430px) {
+    .rightPartLifeWorking {
+        display: flex;
+        padding-top: 60px;
+        justify-content: center;
+    }
+    .imagesLife{
+        display: flex;
+        flex-direction:unset;
+    }
+}
+@media only screen and (min-width:1024px) and (max-width: 1440px) {
+    .titleLifeWorking{
+        font-size: 55px;
+        line-height: 72px;
+    }
+}
+@media only screen and (min-width:768px) and (max-width: 1024px) {
+    .titleLifeWorking{
+        font-size: 50px;
+        line-height: 55px;
+        margin-top: 80px;
+        text-align: center;
+    }
+    .textLifeWorking{
+        text-align: center;
+        margin: 20px auto 0;
+    }
+    .buttonsDivLife{
+        justify-content: center;
+    }
+    .firstBtnLife {
+        margin-right: 15px
+    }
+    .rightPartLifeWorking{
+        display: flex;
+        padding-top: 60px;
+        justify-content: center;
+    }
+    .lifeImgDiv1{
+        display: flex;
+        width: 200px;
+        height: 200px;
+        align-self: center;
+    }
+    .lifeImgDiv2{
+        width: 220px;
+        height: 220px;
+        margin-bottom: 59px;
+    }
+    .lifeImgDiv3{
+        width: 280px;
+        height: 280px;
+    }
+    .imagesLife{
+        display: flex;
+        flex-direction:unset;
+    }
+}
+
+@media only screen and (min-width:425px) and (max-width: 768px) {
+    .titleLifeWorking{
+        font-size: 32px;
+        line-height: 38px;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .textLifeWorking{
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        margin:20px auto 0;
+    }
+    .firstBtnLife {
+        margin-right:0
+    }
+    .buttonsDivLife{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    .rightPartLifeWorking{
+        display: none;
+    }
+}
+
+@media only screen  and (max-width: 425px) {
+    .titleLifeWorking{
+        font-size: 24px;
+        line-height: 29px;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .textLifeWorking{
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        margin: 20px auto 0;
+    }
+    .firstBtnLife {
+        margin-right:0
+    }
+    .buttonsDivLife{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    .rightPartLifeWorking{
+        display: none;
+    }
+}

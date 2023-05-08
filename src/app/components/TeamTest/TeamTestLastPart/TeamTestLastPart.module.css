@@ -1,0 +1,144 @@
+.teamTestWhole{
+    padding:60px 0px;
+    background: #F0EFFF;
+}
+.testTestPart{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.leftMechanism{
+    display: flex;
+    align-self: flex-end;
+    max-width: 243px;
+    width: 100%;
+    height: 276px;
+}
+.middleImgDiv{
+    max-width: 1024px;
+    height: 485px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    background: rgba(0, 0, 0, 0.55);
+    border-radius: 80px;
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    z-index: 8
+}
+.middleImgDiv::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 0px 16px rgba(107, 155, 242, 0.3);
+    z-index: 0;
+    border-radius: 80px;
+}
+.rightMechanism{
+    display: flex;
+    max-width: 243px;
+    width: 100%;
+    height: 276px;
+}
+.yellowVint{
+    position: absolute;
+    top:20%;
+    right: 5%;
+    width: 115px;
+    height: 115px;
+    margin:-60px 0 0 -60px;
+}
+.greenVint {
+    position: absolute;
+    top: 36%;
+    right: 11%;
+    width: 80px;
+    height: 80px;
+    margin: -60px 0 0 -60px;
+}
+.orangeVint{
+    position: absolute;
+    top:38%;
+    right: 2%;
+    width:140px;
+    height: 140px;
+    margin:-60px 0 0 -60px;
+}
+.redVint{
+    position: absolute;
+    bottom:32%;
+    left: 12%;
+    width:115px;
+    height: 115px;
+    margin:-60px 0 0 -60px;
+}
+.orangeSmallVint{
+    position: absolute;
+    bottom:23%;
+    left: 17%;
+    width:80px;
+    height: 80px;
+    margin:-60px 0 0 -60px;
+}
+.blueVint{
+    position: absolute;
+    bottom:15%;
+    left: 7%;
+    width:140px;
+    height: 140px;
+    margin:-60px 0 0 -60px;
+}
+@media only screen and (min-width: 1441px) and (max-width: 1700px) {
+    .middleImgDiv{
+        max-width: 900px;
+    }
+}
+@media only screen and (max-width: 1440px) {
+    .blueVint{
+        display: none;
+    }
+    .orangeSmallVint{
+        display: none;
+    }
+    .redVint{
+        display: none;
+    }
+    .orangeVint{
+        display: none;
+    }
+    .greenVint{
+        display: none;
+    }
+    .yellowVint{
+        display: none;
+    }
+    .leftMechanism{
+        display: none;
+    }
+    .rightMechanism{
+        display: none;
+    }
+    .testTestPart{
+        justify-content: center;
+    }
+    .teamTestWhole{
+        padding: 30px 0;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .teamTestWhole{
+        padding: 10px 0;
+    }
+}
+
+

@@ -1,0 +1,54 @@
+.customerTestWhole{
+    background: #F5F5F5;
+    padding-top: 120px;
+    padding-bottom: 112px;
+}
+.customerTitle{
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 86px;
+    color: #16145F;
+    margin-bottom: 80px;
+}
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+    .customerTitle{
+        font-size: 66px;
+        line-height: 72px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .customerTitle{
+        font-size: 50px;
+        line-height: 55px;
+        margin-bottom: 40px;
+    }
+}
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+    .customerTitle{
+        font-size: 34px;
+        line-height:45px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .customerTestWhole{
+        padding-top: 20px;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .customerTestWhole {
+        padding-bottom: 0;
+    }
+}
+@media only screen and (max-width: 425px){
+    .customerTitle{
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .customerTestWhole{
+        padding-top: 20px;
+    }
+}

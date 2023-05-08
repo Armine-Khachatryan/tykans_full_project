@@ -1,0 +1,114 @@
+@media only screen and (max-width: 1023px) {
+    .serviceTypesWhole{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 74px;
+    }
+    .titleServiceTypesMobile{
+        font-family: Effra_Trial_Bold, sans-serif;
+        font-weight: 600;
+        color: #92374D;
+        margin-bottom: 8px;
+    }
+    .serviceTypesWhole:first-child .titleServiceTypes{
+        color:#92374D;
+    }
+    .serviceTypesWhole:nth-child(2) .titleServiceTypes{
+        color: #B96118;
+    }
+    .serviceTypesWhole:nth-child(3) .titleServiceTypes{
+        color:#EAB531;
+    }
+    .serviceTypesWhole:nth-child(4) .titleServiceTypes{
+        color: #6AAB4F;
+    }
+    .serviceTypesWhole:nth-child(5) .titleServiceTypes{
+        color:#214381;
+    }
+    .serviceTypesWhole:nth-child(6) .titleServiceTypes{
+        color: #16145F;
+    }
+    .serviceTypesWhole:nth-child(7) .titleServiceTypes{
+        color:#92374D;
+    }
+    .serviceTypesWhole:nth-child(8) .titleServiceTypes{
+        color: #B96118;
+    }
+    .serviceTypesWhole:nth-child(9) .titleServiceTypes{
+        color:#EAB531;
+    }
+    .serviceTypesWhole:nth-child(10) .titleServiceTypes{
+        color: #6AAB4F;
+    }
+    .serviceTypesWhole:nth-child(11) .titleServiceTypes{
+        color:#214381;
+    }
+    .serviceTypesWhole:nth-child(12) .titleServiceTypes{
+        color: #16145F;
+    }
+    .textDiv{
+        text-align: center;
+        margin-bottom: 24px;
+    }
+    .readMoreMobile{
+        display: flex;
+        align-items: center;
+        font-family: Effra_Trial_Medium, sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #16145F;
+        margin-bottom: 32px;
+    }
+    .btnDiv{
+        margin-bottom: 22px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .belowPartServiceTypes{
+        max-width: 500px;
+        width: 100%;
+        height: 500px;
+        margin: 0 auto 50px;
+    }
+    .titleServiceTypesMobile{
+        font-size: 62px;
+        line-height:66px
+    }
+    .readMoreMobile{
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+    .belowPartServiceTypes{
+        max-width: 300px;
+        width: 100%;
+        height: 300px;
+        margin: 0 auto 50px;
+    }
+    .titleServiceTypesMobile{
+        font-size: 32px;
+        line-height: 38px;
+    }
+}
+@media only screen and (max-width: 425px){
+    .belowPartServiceTypes{
+        max-width: 250px;
+        width: 100%;
+        height: 250px;
+        margin: 0 auto 50px;
+    }
+    .readMoreMobile{
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .textDiv{
+        margin-bottom: 12px;
+    }
+    .titleServiceTypesMobile{
+        font-size: 32px;
+        line-height: 38px;
+    }
+}

@@ -1,0 +1,540 @@
+.backgroundBlue {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-position: bottom;
+    min-height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1121px;
+    background-image: url("../../assets/images/Frame2.png");
+}
+.btnStyles{
+    border-radius: 360px;
+    padding: 21px 31px;
+    border: none;
+    cursor: pointer;
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top:32px;
+    z-index:1;
+    min-width: 328px;
+    margin-right: 24px;
+    background: rgb(146, 55, 77);
+    text-decoration: unset;
+}
+.btnStyles:hover{
+    box-shadow: 0px 0px 16px 0px #6B9BF2;
+}
+.LeftPartInnovation{
+    max-width: 748px;
+    width: 100%;
+    margin-right: 15px;
+}
+.titleInnovation{
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 76px;
+    color: #F9F9F9;
+    margin-top: 170px;
+    width:  748px ;
+    margin-bottom: 50px;
+}
+.titleInnovation:last-child{
+    margin-top: 0
+}
+.textInnovation{
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+.rightPartInnovation{
+    margin-right: 225px;
+    margin-left: 219px;
+    position: relative;
+    width: 683px;
+    height: 637px;
+    min-width: 683px;
+    min-height: 637px;
+    display: flex;
+}
+.buttonsDiv{
+    display: flex;
+}
+.createImgDiv{
+    position: absolute;
+    top:300px;
+    right:220px;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+.createImg{
+    border-radius: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.createImg:hover{
+    box-shadow: 0px 0px 16px 0px #6B9BF2;
+}
+.migrateImgDiv{
+    position: absolute;
+    top: 99px;
+    left:80px;
+    margin-right: 42px;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+.migrateImg{
+    border-radius: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.migrateImg:hover{
+    box-shadow: 0px 0px 16px 0px #6B9BF2;
+}
+.automateImgDiv {
+    position: absolute;
+    top: 520px;
+    left: 80px;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+.automateImg{
+    border-radius: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.automateImg:hover{
+    box-shadow: 0px 0px 16px 0px #6B9BF2;
+}
+.operateImgDiv{
+    position: absolute;
+    top: 520px;
+    right: 50px;
+    width: 200px;
+    height: 200px;
+    cursor: pointer
+}
+.operateImg{
+    border-radius: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.operateImg:hover{
+    box-shadow: 0px 0px 16px 0px #6B9BF2;
+}
+.integrateImgDiv{
+    width: 200px;
+    height: 200px;
+    top: 99px;
+    right: 50px;
+    position: absolute;
+    display: flex;
+    justify-self: center;
+    cursor: pointer;
+}
+.integrateImg{
+    border-radius: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.integrateImg:hover{
+    box-shadow: 0px 0px 16px 0px #6B9BF2;
+}
+.integrationDiv{
+    margin-top: 10px;
+}
+.containerInsideServices{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 204px;
+}
+.rightPartInnovationMobile{
+    display: none;
+}
+.rightPartInnovationMobileForSwiper{
+    display: none;
+}
+@media only screen and (max-width: 768px) {
+    .btnStyles{
+        min-width: 250px;
+        padding: 12px 21px;
+        font-size: 16px;
+        line-height: 20px;
+        margin-right: 0;
+    }
+}
+@media only screen and (min-width:1440px) and (max-width: 1800px) {
+    .rightPartInnovation{
+        margin-right: 100px;
+        margin-left: -130px;
+    }
+    .titleInnovation {
+        margin-top: 80px;
+        font-size: 56px;
+        line-height: 70px;
+    }
+    .textInnovation{
+        font-size: 24px;
+        line-height: 36px;
+        max-width: 500px;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 1600px) {
+    .backgroundBlue{
+        background-image:none;
+        background-color: #16145F;
+        height:unset;
+    }
+}
+@media only screen and (max-width: 1440px) {
+    .rightPartInnovation{
+        display: none;
+    }
+    .rightPartInnovationMobile {
+        display: block;
+    }
+    .containerInsideServices{
+        flex-direction: column;
+        align-items: center;
+    }
+    a{
+        text-decoration: none;
+    }
+    .migrateDivMobile{
+        padding: 32px 41px;
+        border: 8px solid #92374D;
+        filter: drop-shadow(0px 0px 16px rgba(107, 155, 242, 0.3));
+        border-radius: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 16px;
+        margin-bottom: 24px;
+        font-family: Effra_Trial_Bold, sans-serif;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    .createDivMobile{
+        padding: 32px 41px;
+        border: 8px solid #EAB531;
+        filter: drop-shadow(0px 0px 16px rgba(107, 155, 242, 0.3));
+        border-radius: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 24px;
+        font-family: Effra_Trial_Bold, sans-serif;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    .servicesDivMobile{
+        display: flex;
+        align-items: center;
+    }
+    .automateDivMobile{
+        padding: 32px 41px;
+        border: 8px solid #6AAB4F;
+        filter: drop-shadow(0px 0px 16px rgba(107, 155, 242, 0.3));
+        border-radius: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 16px;
+        margin-bottom: 24px;
+        font-family: Effra_Trial_Bold, sans-serif;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    .operateDivMobile{
+        padding: 32px 41px;
+        border: 8px solid #506DA2;
+        filter: drop-shadow(0px 0px 16px rgba(107, 155, 242, 0.3));
+        border-radius: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 24px;
+        font-family: Effra_Trial_Bold, sans-serif;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    .servicesDivCenterMobile{
+        display: flex;
+        justify-content: center;
+    }
+
+    .integrateDivMobile{
+        padding: 32px 41px;
+        border: 8px solid #B96118;
+        filter: drop-shadow(0px 0px 16px rgba(107, 155, 242, 0.3));
+        border-radius: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: Effra_Trial_Bold, sans-serif;
+        color: #FFFFFF;
+        text-decoration: none;
+        margin-bottom: 24px;
+    }
+    .buttonsDiv{
+       justify-content: center;
+    }
+}
+@media only screen and (min-width:1024px) and (max-width: 1440px) {
+    .rightPartInnovationMobile{
+        display: block;
+        margin-top: 80px;
+    }
+    .titleInnovation {
+        font-size: 50px;
+        line-height: 62px;
+        text-align: center;
+        margin-top: 80px;
+    }
+    .migrateDivMobile{
+        width: 300px;
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 62px;
+    }
+    .createDivMobile{
+        width: 300px;
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 62px;
+    }
+    .automateDivMobile{
+        width: 300px;
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 62px;
+    }
+    .operateDivMobile{
+        width: 300px;
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 62px;
+    }
+    .integrateDivMobile{
+        width: 300px;
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 62px;
+    }
+    .textInnovation{
+        text-align: center;
+        margin: auto;
+        max-width: 1000px;
+        width: 100%;
+    }
+    .containerInsideServices{
+        margin-bottom: 100px;
+    }
+}
+@media only screen and (min-width:768px) and (max-width: 1023px){
+    .rightPartInnovationMobile{
+        display: none;
+    }
+    .rightPartInnovationMobileForSwiper{
+        display: block;
+        margin-top: 80px;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .rightPartInnovationMobile{
+        display: none;
+    }
+    .rightPartInnovationMobileForSwiper{
+        display: block;
+        margin-top: 60px;
+    }
+}
+    @media only screen and (min-width:768px) and (max-width: 1024px) {
+    .containerInsideServices{
+        margin-top: 80px;
+        margin-bottom: 100px;
+    }
+    .titleInnovation {
+        font-size: 40px;
+        line-height: 52px;
+        text-align: center;
+        margin-top: 0;
+    }
+    .migrateDivMobile{
+        width: 250px;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 52px;
+    }
+    .createDivMobile{
+        width: 250px;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 52px;
+    }
+    .automateDivMobile{
+        width: 250px;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 52px;
+    }
+    .textInnovation{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .operateDivMobile{
+        width: 250px;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 52px;
+    }
+    .integrateDivMobile {
+        width: 250px;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 52px;
+    }
+    .textInnovation{
+        text-align: center;
+        margin: auto;
+        max-width: 700px;
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+    .containerInsideServices{
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    .titleInnovation {
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+        margin-top: 0;
+        max-width: 740px;
+        width: 100%;
+        margin-bottom: 24px;
+    }
+    .textInnovation{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .migrateDivMobile{
+        width: 165px;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .createDivMobile{
+        width: 165px;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .automateDivMobile{
+        width: 165px;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .operateDivMobile{
+        width: 165px;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .integrateDivMobile{
+        width: 165px;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .buttonsDiv{
+        flex-direction: column;
+        align-items: center;
+    }
+    .textInnovation{
+        text-align: center;
+        margin: auto;
+        max-width: 700px;
+        width: 100%;
+    }
+}
+@media only screen and (max-width:425px) {
+    .containerInsideServices{
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    .titleInnovation {
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+        margin-top: 0;
+        max-width: 425px;
+        width: 100%;
+        margin-bottom: 24px;
+    }
+    .servicesDivMobile{
+        flex-direction: column;
+        align-items: center;
+    }
+    .migrateDivMobile{
+        width: 165px;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+        margin-right: 0;
+    }
+    .createDivMobile{
+        width: 165px;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .automateDivMobile{
+        width: 165px;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+        margin-right: 0;
+    }
+    .operateDivMobile{
+        width: 165px;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+    }
+    .integrateDivMobile{
+        width: 165px;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+        margin-right: 0;
+    }
+    .buttonsDiv{
+        flex-direction: column;
+        align-items: center;
+    }
+    .textInnovation{
+        text-align: center;
+        margin: auto;
+        max-width: 700px;
+        width: 100%;
+    }
+}

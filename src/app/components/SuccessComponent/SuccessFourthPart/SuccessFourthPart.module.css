@@ -1,0 +1,120 @@
+/*.achieveGoals{*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    justify-content: space-between;*/
+/*    position: relative;*/
+/*}*/
+
+/*.goalsLeft{*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*}*/
+
+/*.goalsTitle{*/
+/*    margin-bottom: 16px;*/
+/*    font-family: Effra_Trial_Regular, sans-serif;*/
+/*    font-style: normal;*/
+/*    font-weight: 400;*/
+/*    font-size: 72px;*/
+/*    line-height: 86px;*/
+/*    color: #EAB531;*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*}*/
+
+/*!*.heartDiv{*!*/
+/*!*    width: 86px;*!*/
+/*!*    height: 86px;*!*/
+/*!*    display: flex;*!*/
+/*!*    align-items: center;*!*/
+/*!*}*!*/
+
+/*.goalsSubTitle{*/
+/*    max-width: 882px;*/
+/*    width: 100%;*/
+/*    font-family:Effra_Trial_Bold, sans-serif;*/
+/*    font-style: normal;*/
+/*    font-weight: 700;*/
+/*    font-size: 48px;*/
+/*    line-height: 58px;*/
+/*    color: #16145F;*/
+/*    margin-bottom: 24px;*/
+/*}*/
+
+/*.goalText {*/
+/*    font-family: Effra_Trial_Bold, sans-serif;*/
+/*    font-style: normal;*/
+/*    font-weight: 700;*/
+/*    font-size: 24px;*/
+/*    line-height: 36px;*/
+/*    color: #16145F;*/
+/*    margin-bottom: 48px;*/
+/*    max-width: 780px;*/
+/*    width: 100%;*/
+/*}*/
+/*.btnDiv{*/
+/*    max-width: 415px;*/
+/*    width: 100%;*/
+/*    margin-bottom: 100px;*/
+/*}*/
+
+
+/*.goalPicDiv{*/
+/*    width: 415px;*/
+/*    height: 500px;*/
+/*}*/
+
+/*.goalPic{*/
+/*    border-radius: 48px;*/
+/*}*/
+
+/*.greenVintDiv{*/
+/*    position: absolute;*/
+/*    width: 80px;*/
+/*    height: 80px;*/
+/*    bottom: -40px;*/
+/*    right: 310px;*/
+/*    z-index: 3;*/
+/*    -webkit-animation:spin 14s linear infinite;*/
+/*    -moz-animation:spin 14s linear infinite;*/
+/*    animation:spin 14s linear infinite;*/
+/*}*/
+
+/*@-moz-keyframes spin {*/
+/*    100% { -moz-transform: rotate(360deg); }*/
+/*}*/
+/*@-webkit-keyframes spin {*/
+/*    100% { -webkit-transform: rotate(360deg); }*/
+/*}*/
+/*@keyframes spin {*/
+/*    100% {*/
+/*        -webkit-transform: rotate(360deg);*/
+/*        transform:rotate(360deg);*/
+/*    }*/
+/*}*/
+
+
+/*.redVintDiv{*/
+/*    position: absolute;*/
+/*    width: 115px;*/
+/*    height: 115px;*/
+/*    bottom: -70px;*/
+/*    right: 170px;*/
+/*    z-index: 3;*/
+/*    -webkit-animation:spin 14s linear infinite;*/
+/*    -moz-animation:spin 14s linear infinite;*/
+/*    animation:spin 14s linear infinite;*/
+/*    animation-direction: reverse;*/
+/*}*/
+
+/*.orangeVintDiv{*/
+/*    position: absolute;*/
+/*    width: 140px;*/
+/*    height: 140px;*/
+/*    bottom: -90px;*/
+/*    right: 10px;*/
+/*    z-index: 3;*/
+/*    -webkit-animation:spin 14s linear infinite;*/
+/*    -moz-animation:spin 14s linear infinite;*/
+/*    animation:spin 14s linear infinite;*/
+/*}*/

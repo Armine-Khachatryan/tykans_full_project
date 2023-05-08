@@ -1,0 +1,265 @@
+.wholeMembers{
+    padding: 0px 100px 100px 100px;
+    background-color: #16145F;
+    display: flex;
+    flex-direction: column;
+}
+.memberInfo{
+    display: flex;
+}
+.member{
+    display: flex;
+    flex-direction: column;
+}
+.personIfo{
+    margin-left: 118px;
+    margin-right: 62px;
+    margin-bottom: 8px;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+}
+.personImg{
+    border-radius: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.personName{
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    color: #B96118;
+}
+.personPosition{
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #B96118;
+    white-space: nowrap;
+}
+.textAndButtons{
+    display: flex;
+    flex-direction: column;
+}
+.textInfo{
+    min-height: 290px;
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    color: #F9F9F9;
+}
+.firstButton{
+    margin-right: 24px;
+}
+.buttonsLife{
+    display: flex;
+    margin-top: 24px;
+}
+.upComa{
+    width: 80px;
+    height: 80px;
+}
+.downComa{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-self: flex-end;
+}
+.lifeSwiper{
+    background-color: #16145F;
+}
+@media only screen and (min-width:1440px) and (max-width: 1700px) {
+    .upComa{
+        width: 60px;
+        height: 60px;
+    }
+    .downComa{
+        width: 60px;
+        height: 60px;
+    }
+    .personName{
+        font-size: 30px;
+        line-height: 44px;
+    }
+    .textInfo{
+        font-size: 42px;
+        line-height: 66px;
+        max-width: 1000px;
+    }
+    .personPosition{
+        font-size: 22px;
+        line-height: 32px;
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+    .upComa{
+        width: 60px;
+        height: 60px;
+    }
+    .downComa{
+        width: 60px;
+        height: 60px;
+    }
+    .personName{
+        font-size: 30px;
+        line-height: 44px;
+    }
+    .textInfo{
+        font-size: 38px;
+        line-height: 43px;
+        max-width: 900px;
+    }
+    .personPosition{
+        font-size: 22px;
+        line-height: 32px;
+        text-align: center;
+    }
+    .wholeMembers {
+        padding: 100px 100px 100px 100px;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1240px) {
+    .buttonsLife{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 22px;
+    }
+    .firstButton{
+        margin-right: 0;
+    }
+}
+@media only screen and (min-width: 852px) and (max-width: 1024px) {
+    .upComa{
+        width: 50px;
+        height: 50px;
+    }
+    .downComa{
+        width: 50px;
+        height: 50px;
+    }
+    .personName{
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .textInfo{
+        font-size: 32px;
+        line-height: 40px;
+        max-width: 500px;
+        min-height: unset;
+    }
+    .personPosition{
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .wholeMembers {
+        padding: 100px 50px 100px 50px;
+    }
+    .textAndButtons{
+        max-width: 500px;
+    }
+    .buttonsLife{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 22px;
+    }
+    .firstButton{
+        margin-right: 0;
+    }
+}
+@media only screen and (min-width: 595px) and (max-width: 852px) {
+    .upComa{
+        width: 40px;
+        height:40px;
+    }
+    .downComa{
+        width: 40px;
+        height: 40px;
+    }
+    .personName{
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .textInfo{
+        font-size: 30px;
+        line-height: 36px;
+        max-width: 700px;
+        text-align: center;
+        margin-top: 80px;
+        min-height: unset;
+    }
+    .personPosition{
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .memberInfo{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .personIfo{
+        margin: auto;
+    }
+    .wholeMembers {
+        padding: 80px 80px 80px 80px;
+    }
+}
+@media only screen  and (max-width: 595px) {
+    .upComa{
+        width: 30px;
+        height:30px;
+    }
+    .downComa{
+        width: 30px;
+        height: 30px;
+    }
+    .personName{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .textInfo{
+        font-size: 20px;
+        line-height: 30px;
+        max-width: 400px;
+        text-align: center;
+        margin-top: 80px;
+        min-height: unset;
+    }
+    .textAndButtons{
+        max-width: 400px;
+    }
+    .buttonsLife{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 22px;
+    }
+    .firstButton{
+        margin-right: 0;
+    }
+    .personIfo{
+        margin: auto;
+    }
+    .memberInfo{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .personPosition{
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .wholeMembers {
+        padding: 80px 80px 20px 80px;
+    }
+}
+

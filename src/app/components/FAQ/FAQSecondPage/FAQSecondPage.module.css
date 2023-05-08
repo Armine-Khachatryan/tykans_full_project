@@ -1,0 +1,213 @@
+.orangeDivWhole{
+    margin-top: 48px;
+    margin-bottom: 48px;
+    max-width: 1720px;
+    width: 100%;
+    background-color: #B96118;
+    border-radius: 360px;
+    font-family: Inter_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+.orangeText {
+    padding-left: 90px;
+}
+.robotQuestionsDiv{
+    display: flex;
+    justify-content: space-between;
+}
+.robotText{
+    font-family: Inter_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    color: #16145F;
+    margin-bottom: 32px;
+    max-width: 1024px;
+    width: 100%;
+}
+.btns{
+    display: flex;
+    align-items: center;
+    margin-bottom:32px;
+}
+.whiteBtnDiv{
+    margin-right: 24px;
+    background-color: #FFFFFF;
+    border: 1px solid #C0C0C0;
+    border-radius: 360px;
+    padding: 21px 31px;
+    cursor: pointer;
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #16145F;
+    text-align: center;
+    margin-top:32px;
+    z-index:1;
+    min-width: 328px;
+}
+.whiteBtnDiv:hover{
+    box-shadow: 0px 0px 16px 0px #6B9BF2;
+}
+.send{
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #16145F;
+    margin-bottom:32px;
+    margin-left: 30px;
+}
+@media only screen and (min-width:1024px) and (max-width: 1440px) {
+    .orangeDivWhole{
+        margin-top: 32px;
+        margin-bottom: 32px;
+        font-size: 40px;
+        line-height:50px;
+    }
+    .orangeQ{
+        width: 100px;
+        height: 100px;
+    }
+    .orangeText{
+        padding: 10px 20px;
+        text-align: center;
+    }
+    .robotText{
+        font-size: 30px;
+        line-height: 44px;
+    }
+}
+@media only screen and (min-width:768px) and (max-width: 1024px) {
+    .orangeDivWhole{
+        margin-top: 32px;
+        margin-bottom: 32px;
+        font-size: 40px;
+        line-height:50px;
+    }
+    .orangeQ{
+        width: 80px;
+        height: 80px;
+    }
+    .orangeText{
+        padding: 10px 20px;
+        text-align: center;
+    }
+    .robotText{
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .orangeText{
+        padding: 20px;
+        text-align: center;
+    }
+}
+@media only screen and (min-width:425px) and (max-width: 768px) {
+    .orangeDivWhole{
+        margin-top: 32px;
+        margin-bottom: 32px;
+        font-size: 22px;
+        line-height:28px;
+    }
+    .robotText{
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 22px;
+    }
+    .robotQuestionsDiv{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .robot{
+        width: 300px;
+        height: 450px;
+    }
+    .btns{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom:32px;
+    }
+    .orangeText{
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+    }
+    .orangeQ{
+        width: 70px;
+        height:  70px;
+    }
+    .whiteBtnDiv{
+        margin-right: 0;
+        padding: 12px 21px;
+        font-size: 16px;
+        line-height: 20px;
+        margin-top:0;
+        min-width: 250px
+    }
+    .send{
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .orangeDivWhole{
+        margin-top: 32px;
+        margin-bottom: 32px;
+        font-size: 16px;
+        line-height:20px;
+    }
+    .robotText{
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 22px;
+    }
+    .robotQuestionsDiv{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .robot{
+        width: 300px;
+        height: 450px;
+    }
+    .btns{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom:32px;
+    }
+    .orangeQ{
+        width: 32px;
+        height: 32px;
+    }
+    .orangeText{
+        padding: 5px 10px;
+        text-align: center;
+    }
+    .whiteBtnDiv{
+        margin-right: 0;
+        padding: 12px 21px;
+        font-size: 16px;
+        line-height: 20px;
+        margin-top:0;
+        min-width: 250px
+    }
+    .send{
+        font-size: 20px;
+        line-height: 30px;
+    }
+}

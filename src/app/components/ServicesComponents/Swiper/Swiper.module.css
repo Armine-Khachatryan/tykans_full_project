@@ -1,0 +1,282 @@
+.swiper-slide{
+    max-width: 359px;
+    width: 100%;
+    margin-right: 10px;
+}
+.active{
+    max-width: 557px !important;
+    width: 100%;
+    margin-right: 20px;
+}
+.bigSlide{
+    padding: 80px 60px;
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 16px rgba(107, 155, 242, 0.3);
+    border-radius: 16px;
+}
+.upSlide{
+    display: flex;
+}
+.avatarDiv{
+    width: 120px;
+    height: 120px;
+    margin-right: 24px;
+}
+.slideInfo{
+    display: flex;
+    flex-direction: column;
+}
+.companyNameInSlide{
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #C0C0C0;
+    margin-bottom: 8px;
+}
+.nameInSlide{
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #16145F;
+    margin-bottom: 8px;
+}
+.slideBigText{
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #16145F;
+    margin-top: 24px;
+}
+.slide{
+    padding: 60px 16px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 16px rgba(107, 155, 242, 0.3);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+.slideText{
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #16145F;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.upComa{
+    width: 40px;
+    height: 40px;
+}
+.downComa{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-self: end;
+}
+.belowPart{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    white-space: nowrap;
+}
+.name{
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #16145F;
+    margin-right: 8px;
+}
+.company{
+    padding-left: 8px;
+    border-left: 1px solid #C0C0C0;
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #DDDDDD;
+}
+.dots{
+    font-size: 60px;
+}
+.swiperCustomerTestimonials{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.sliderInside{
+    display: flex;
+    flex-direction: column;
+    max-width: 1285px;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+.upComaDiv{
+    display: flex;
+    margin-right: 35px;
+    align-self:flex-start;
+    width: 80px;
+    height: 80px;
+}
+.textSlider{
+    max-width: 1000px;
+    width: 100%;
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    color: #16145F;
+    margin: auto;
+}
+.nameSurname{
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    color: #92374D;
+    padding-left: 115px;
+}
+.description{
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    color: #16145F;
+    padding-left: 115px;
+}
+.downComaDiv{
+    margin-left: 35px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-self: flex-end;
+}
+@media only screen and (min-width: 1440px) and (max-width: 1700px) {
+    .textSlider{
+        font-size: 42px;
+        line-height: 66px;
+    }
+    .nameSurname{
+        font-size: 42px;
+        line-height: 66px;
+    }
+    .upComaDiv{
+        width: 60px;
+        height: 60px;
+    }
+    .downComaDiv{
+        width: 60px;
+        height: 60px;
+    }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1339px) {
+    .upComaDiv{
+        width: 60px;
+        height: 60px;
+    }
+    .downComaDiv{
+        width: 60px;
+        height: 60px;
+    }
+    .textSlider{
+        font-size: 38px;
+        line-height: 48px;
+    }
+    .nameSurname{
+        font-size: 38px;
+        line-height: 48px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .upComaDiv{
+        width: 50px;
+        height: 50px;
+    }
+    .downComaDiv{
+        width: 50px;
+        height: 50px;
+    }
+    .textSlider{
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .nameSurname{
+        font-size: 36px;
+        line-height: 46px;
+        padding-left: 0;
+    }
+    .description{
+        font-size: 24px;
+        line-height: 30px;
+        padding-left: 0;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .swiperCustomerTestimonials{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .upComaDiv{
+        width: 40px;
+        height:40px;
+    }
+    .downComaDiv{
+        width: 40px;
+        height: 40px;
+    }
+}
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+    .textSlider {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .nameSurname{
+        font-size: 24px;
+        line-height: 30px;
+        padding-left: 0;
+    }
+    .description{
+        font-size: 16px;
+        line-height: 24px;
+        padding-left: 0;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .textSlider {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .description{
+        font-size: 16px;
+        line-height: 24px;
+        padding-left: 0;
+    }
+    .nameSurname{
+        font-size: 16px;
+        line-height: 24px;
+        padding-left: 0;
+    }
+    .sliderInside{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

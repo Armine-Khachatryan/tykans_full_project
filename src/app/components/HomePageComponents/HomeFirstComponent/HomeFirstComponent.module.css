@@ -1,0 +1,202 @@
+.helpWhole{
+    display: flex;
+    justify-content: space-between;
+    padding-top:48px;
+    padding-bottom:48px;
+}
+.helpLeft{
+    display: flex;
+    flex-direction: column;
+}
+.fadeHomeFirst{
+    overflow-x: hidden;
+}
+.helpTitle{
+    font-family:Montserrat_SemiBold,sans-serif;
+    width: 1000px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    color:#92374D;
+    margin-bottom: 32px;
+}
+.redTitle{
+    color:#92374D;
+}
+.helpText{
+    width: 1254px;
+    font-family:Effra_Trial_Regular, sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    color: #16145F;
+    margin-bottom: 32px;
+}
+.fadeMobileHomeFirst{
+    display: none;
+}
+.helpBtn{
+    max-width: 360px;
+}
+.helpRight{
+    position: relative;
+}
+.redDiv{
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    bottom: -130px;
+    right: 20px;
+    z-index: 8;
+}
+.yellowDiv{
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    bottom: 5px;
+    right: 330px;
+}
+@media only screen and (min-width:1440px) and (max-width: 1700px) {
+    .helpTitle{
+        width: 700px;
+        font-size: 42px;
+        line-height: 66px;
+        margin-bottom: 36px;
+    }
+    .helpText{
+        width: 1100px;
+        font-size: 30px;
+        line-height: 44px;
+        margin-bottom: 36px;
+    }
+}
+@media only screen and (min-width:1024px) and (max-width: 1440px) {
+    .helpTitle{
+        width: 750px;
+        font-size: 42px;
+        line-height: 66px;
+        margin-bottom: 36px;
+    }
+    .helpText{
+        width: 650px;
+        font-size: 30px;
+        line-height: 44px;
+        margin-bottom: 16px;
+    }
+}
+@media only screen and (min-width:768px) and (max-width: 1024px) {
+    .helpTitle{
+        width:650px;
+        font-size: 38px;
+        line-height: 60px;
+        margin-bottom: 20px;
+    }
+    .helpText{
+        width: 650px;
+        font-size: 30px;
+        line-height: 44px;
+        margin-bottom: 16px;
+    }
+    .redDiv{
+        width: 240px;
+        height: 240px;
+        bottom: -120px;
+        right: 25px;
+    }
+    .yellowDiv{
+        width: 120px;
+        height: 120px;
+        bottom: 3px;
+        right: 260px;
+    }
+}
+@media only screen and (min-width:768px) and (max-width: 833px) {
+    .redDiv{
+        display: none;
+    }
+    .yellowDiv{
+        display: none;
+    }
+}
+@media only screen and (min-width:425px) and (max-width: 768px) {
+    .helpWhole{
+        justify-content: center;
+    }
+    .helpTitle{
+        max-width:600px;
+        width: 100%;
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .helpText{
+        max-width:600px;
+        width: 100%;
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .helpBtn{
+        margin: auto;
+    }
+    .redDiv{
+        display: none;
+    }
+    .yellowDiv{
+        display: none;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .helpWhole{
+        justify-content: center;
+    }
+    .helpTitle{
+        text-align: center;
+        max-width:250px;
+        width: 100%;
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+    .helpText{
+        max-width:250px;
+        width: 100%;
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+    .redDiv{
+        width: 100px;
+        height:100px;
+        bottom: -100px;
+        right: 40px;
+    }
+    .yellowDiv{
+        width: 80px;
+        height: 80px;
+        bottom: -80px;
+        right: 180px;
+    }
+    .helpBtn{
+        max-width: 300px;
+        margin: auto;
+    }
+    .redDiv{
+        display: none;
+    }
+    .yellowDiv{
+        display: none;
+    }
+}
+@media only screen  and (max-width: 768px) {
+    .fadeHomeFirst{
+        display: none;
+    }
+    .fadeMobileHomeFirst{
+        display: block;
+    }
+}
+

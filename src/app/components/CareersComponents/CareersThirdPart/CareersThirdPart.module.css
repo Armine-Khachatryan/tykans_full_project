@@ -1,0 +1,214 @@
+.blueFrame{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 1105px;
+    margin-top: -70px;
+}
+.frameInside{
+    padding-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.whoImageDiv{
+    aspect-ratio: 1/1;
+    max-width: 100%;
+}
+.personImg {
+    border-radius: 360px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.careersRightPart{
+    width: 70%;
+    padding-right: 0;
+}
+.careersTitleThird{
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 86px;
+    color: #EAB531;
+    margin-bottom: 16px;
+    text-align: right;
+}
+.careersSubtitleThird{
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: right;
+    color: #F9F9F9;
+    margin-bottom: 32px;
+}
+.careersText{
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: right;
+    color: #F9F9F9;
+    padding-left: 100px;
+}
+@media only screen and (min-width:1024px) and (max-width: 1440px) {
+    .careersTitleThird{
+        font-size: 62px;
+        line-height: 66px;
+    }
+    .careersSubtitleThird{
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 22px;
+    }
+    .careersText{
+        font-size: 22px;
+        line-height: 30px;
+    }
+}
+@media only screen and (min-width:768px) and (max-width: 1024px) {
+    .blueFrame{
+        background-image: unset;
+        background-color:#16145F;
+        height: unset;
+        margin-top: 50px;
+    }
+    .careersTitleThird{
+        font-size: 60px;
+        line-height: 60px;
+    }
+    .careersSubtitleThird{
+        font-size: 30px;
+        line-height: 45px;
+        margin-bottom: 22px;
+        text-align: center;
+    }
+    .careersText{
+        font-size: 22px;
+        line-height: 30px;
+        text-align: center;
+        padding-left: 0;
+    }
+    .frameInside{
+        flex-direction: column;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .whoImageDiv{
+        max-width: 100%;
+        width: 350px;
+        height: 350px;
+        border-radius: 50%;
+    }
+    .personImg {
+        width: 350px;
+        height:350px;
+        border-radius:50%;
+        object-fit: cover;
+    }
+    .careersRightPart{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+}
+@media only screen and (min-width:425px) and (max-width: 768px) {
+    .blueFrame{
+        background-image: unset;
+        background-color:#16145F;
+        height: unset;
+        margin-top: 50px;
+    }
+    .careersTitleThird{
+        font-size: 32px;
+        line-height: 48px;
+    }
+    .careersSubtitleThird{
+        font-size: 28px;
+        line-height: 35px;
+        margin-bottom: 22px;
+        text-align: center;
+    }
+    .careersText{
+        font-size: 22px;
+        line-height: 30px;
+        text-align: center;
+        padding-left: 0;
+    }
+    .frameInside{
+        flex-direction: column;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .whoImageDiv{
+        max-width: 100%;
+        width: 300px;
+        height:300px;
+        border-radius: 50%;
+    }
+    .personImg {
+        width:300px;
+        height:300px;
+        border-radius:50%;
+        object-fit: cover;
+    }
+    .careersRightPart{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+}
+@media only screen and (min-width:320px) and (max-width: 425px) {
+    .blueFrame{
+        background-image: unset;
+        background-color:#16145F;
+        height: unset;
+        margin-top: 50px;
+    }
+    .careersTitleThird{
+        text-align: center;
+        font-size: 32px;
+        line-height: 48px;
+    }
+    .careersSubtitleThird{
+        font-size: 28px;
+        line-height: 35px;
+        margin-bottom: 22px;
+        text-align: center;
+    }
+    .careersText{
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        padding-left: 0;
+    }
+    .frameInside{
+        flex-direction: column;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .whoImageDiv{
+        max-width: 100%;
+        width: 250px;
+        height:250px;
+        border-radius: 50%;
+    }
+    .personImg {
+        width:250px;
+        height:250px;
+        border-radius:50%;
+        object-fit: cover;
+    }
+    .careersRightPart{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+}

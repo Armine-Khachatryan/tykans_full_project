@@ -1,0 +1,315 @@
+.achieveGoalsWhole{
+    background-color:#16145F;
+    height: 707px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+}
+.achieveGoals{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.goalsLeft{
+    display: flex;
+    flex-direction: column;
+}
+.fadeRightMobile{
+    display: none;
+}
+.goalsLeftMobile{
+    display: none;
+}
+.goalsTitle{
+    margin-bottom: 16px;
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 86px;
+    color: #EAB531;
+    display: flex;
+    align-items: center;
+}
+.heartImg{
+    width: 86px;
+    height: 86px;
+}
+.goalsSubTitle{
+    max-width: 882px;
+    width: 100%;
+    font-family:Effra_Trial_Bold, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: #F9F9F9;
+    margin-bottom: 24px;
+}
+.goalText {
+    font-family: Effra_Trial_Bold, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #F9F9F9;
+    margin-bottom: 48px;
+    max-width: 780px;
+    width: 100%;
+}
+.btnDiv{
+    max-width: 415px;
+    width: 100%;
+}
+.goalPicDiv{
+    width: 415px;
+    height: 500px;
+}
+.goalPic{
+    border-radius: 48px;
+    object-fit: cover;
+}
+.greenVintDiv{
+    position: absolute;
+    width: 50px;
+    height: 50px;;
+    bottom: -120px;
+    right: 300px;
+}
+.redVintDiv{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    bottom: -130px;
+    right: 170px;
+}
+
+.orangeVintDiv{
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    bottom: -140px;
+    right: 10px;
+}
+@media only screen and (min-width:1440px) and (max-width: 1700px) {
+    .goalsTitle {
+        font-size: 66px;
+        line-height: 72px;
+    }
+    .goalsSubTitle{
+        max-width: 800px;
+        font-size: 42px;
+        line-height: 54px;
+        margin-bottom: 20px;
+    }
+    .goalText {
+        font-size: 22px;
+        line-height: 32px;
+        margin-bottom: 44px;
+        max-width: 750px;
+    }
+    .goalPicDiv{
+        width: 400px;
+        height: 500px;
+    }
+}
+@media only screen and (min-width:1024px) and (max-width: 1440px) {
+    .goalsTitle {
+        font-size: 62px;
+        line-height: 64px;
+    }
+    .goalsSubTitle{
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 16px;
+    }
+    .goalText {
+        max-width: 730px;
+    }
+    .goalPicDiv{
+        width: 350px;
+        height: 450px;
+    }
+    .heartImg{
+        width: 78px;
+        height: 78px;
+    }
+}
+@media only screen and (min-width:768px) and (max-width: 1024px) {
+    .achieveGoals {
+        flex-direction: column;
+    }
+    .achieveGoalsWhole{
+        height: 1100px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin-bottom: 50px;
+    }
+    .goalsTitle {
+        font-size: 62px;
+        line-height: 64px;
+    }
+    .goalsSubTitle{
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 16px;
+        text-align: center;
+    }
+    .heartImg{
+        width:62px;
+        height: 62px;
+    }
+    .goalText {
+        text-align: center;
+        max-width: 730px;
+        margin-bottom: 10px;
+    }
+    .goalPicDiv{
+        width: 350px;
+        height: 450px;
+    }
+    .goalsLeft{
+        align-items: center;
+    }
+    .btnDiv{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (min-width:425px) and (max-width: 768px) {
+    .achieveGoals {
+        flex-direction: column;
+    }
+    .achieveGoalsWhole{
+        height: min-content;
+        padding-top: 30px;
+        padding-bottom: 100px;
+        margin-bottom: 50px;
+    }
+    .goalsTitle {
+        font-size: 34px;
+        line-height: 51px;
+        text-align: center;
+    }
+    .heartImg{
+        width: 34px;
+        height: 34px;
+    }
+    .goalsSubTitle{
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 16px;
+        text-align: center;
+    }
+    .goalText {
+        max-width:650px;
+        margin-bottom: 10px;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        white-space:unset;
+    }
+    .goalPicDiv{
+        width: 300px;
+        object-fit:inherit;
+        height: unset;
+    }
+    .goalPic{
+        width: 300px;
+    }
+    .goalsLeftMobile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .goalsLeft{
+        display: none;
+    }
+    .btnDiv{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .redVintDiv{
+        display: none;
+    }
+    .greenVintDiv{
+        display: none;
+    }
+    .orangeVintDiv{
+        display: none;
+    }
+    .fadeRightMobile{
+        display: block;
+    }
+    .fadeRight{
+        display: none;
+    }
+}
+@media only screen  and (max-width: 425px) {
+    .achieveGoals {
+        flex-direction: column;
+    }
+    .achieveGoalsWhole{
+        height: min-content;
+        padding-top: 30px;
+        padding-bottom: 120px;
+        margin-bottom: 50px;
+    }
+    .heartImg{
+        width: 34px;
+        height: 34px;
+    }
+    .goalsTitle {
+        font-size: 34px;
+        line-height: 51px;
+        text-align: center;
+    }
+    .goalsSubTitle{
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 16px;
+        text-align: center;
+    }
+    .goalText {
+        text-align: center;
+        max-width: 280px;
+        margin-bottom: 10px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .goalPicDiv{
+        width: 250px;
+        height: 250px;
+    }
+    .goalsLeftMobile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .goalsLeft{
+        display: none;
+    }
+    .btnDiv{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .redVintDiv{
+        display: none;
+    }
+    .greenVintDiv{
+        display: none;
+    }
+    .orangeVintDiv{
+        display: none;
+    }
+    .fadeRightMobile{
+        display: block;
+    }
+    .fadeRight{
+        display: none;
+    }
+}

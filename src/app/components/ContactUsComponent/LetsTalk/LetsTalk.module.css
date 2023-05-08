@@ -1,0 +1,199 @@
+.blueDiv{
+    background-color: #16145F;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.talkWhole{
+    display: flex;
+    justify-content: space-between;
+}
+.talkLeft{
+    width: 60%;
+}
+.talkRight{
+    width: 40%;
+}
+.imgDiv{
+    max-width: 650px;
+    width: 100%;
+    border-radius: 80px;
+    object-fit: cover;
+    height: 450px;
+}
+.title{
+    width:max-content;
+    margin-bottom: 40px;
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 76px;
+    color: #EAB531;
+    padding-bottom: 16px;
+    border-bottom: 6px solid #FFFFFF;
+    z-index:1
+}
+.contactTitle{
+    margin-bottom: 24px;
+    max-width: 841px;
+    width: 100%;
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 86px;
+    color: #FFFFFF;
+}
+.contactSubTitle{
+    margin-bottom: 64px;
+    max-width: 841px;
+    width: 100%;
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+@media only screen and (min-width:1024px) and (max-width: 1440px) {
+    .talkLeft{
+        max-width: 750px;
+    }
+    .title{
+        font-size: 55px;
+        line-height: 62px;
+    }
+    .contactTitle{
+        max-width: 750px;
+        font-size: 62px;
+        line-height: 66px;
+    }
+    .contactSubTitle{
+        max-width: 600px;
+    }
+    .imgDiv{
+        max-width: 550px;
+        object-fit:cover;
+        height: 400px;
+    }
+    .talkLeft{
+        width: 50%
+    }
+}
+@media only screen and (min-width:768px)  and (max-width: 1024px) {
+    .talkWhole{
+        flex-direction: column;
+        align-items: center;
+    }
+    .talkLeft{
+        width: 100%;
+        max-width: 950px;
+    }
+    .title{
+        font-size: 48px;
+        line-height: 58px;
+        margin: 0 auto 22px;
+    }
+    .contactTitle{
+        max-width: 600px;
+        font-size: 45px;
+        line-height: 58px;
+        margin: 0 auto 22px;
+        text-align: center;
+    }
+    .contactSubTitle{
+        max-width: 600px;
+        font-size: 21px;
+        line-height: 32px;
+        margin: 0 auto 22px;
+        text-align: center;
+    }
+    .talkRight{
+        width: 100%;
+        display: flex;
+    }
+    .imgDiv{
+        margin: auto;
+    }
+}
+@media only screen  and (min-width: 425px) and (max-width: 768px) {
+    .talkWhole{
+        flex-direction: column;
+        align-items: center;
+    }
+    .talkLeft{
+        width: 100%;
+        max-width: 600px;
+    }
+    .title{
+        font-size: 32px;
+        line-height: 38px;
+        margin: 0 auto 22px;
+    }
+    .contactTitle{
+        max-width: 600px;
+        font-size: 32px;
+        line-height: 38px;
+        margin: 0 auto 22px;
+        text-align: center;
+    }
+    .contactSubTitle{
+        max-width: 600px;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+    }
+    .talkRight{
+        width: 100%;
+    }
+    .imgDiv{
+        max-width: 550px;
+        object-fit:contain;
+        height: unset;
+        margin-bottom: 20px;
+    }
+    .blueDiv{
+        padding-top: 50px;
+    }
+}
+@media only screen  and (max-width: 425px) {
+    .talkWhole{
+        flex-direction: column;
+        align-items: center;
+    }
+    .talkLeft{
+        width: 100%;
+        max-width: 400px;
+    }
+    .title{
+        font-size: 24px;
+        line-height: 29px;
+        margin: 0 auto 22px;
+    }
+    .contactTitle{
+        max-width: 400px;
+        font-size: 24px;
+        line-height: 29px;
+        margin: 0 auto 22px;
+        text-align: center;
+    }
+    .contactSubTitle{
+        max-width: 400px;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+    }
+    .talkRight{
+        width: 100%;
+    }
+    .imgDiv{
+        max-width: 400px;
+        object-fit:contain;
+        height: unset;
+        margin-bottom: 20px;
+    }
+    .blueDiv{
+        padding-top: 50px;
+    }
+}
+

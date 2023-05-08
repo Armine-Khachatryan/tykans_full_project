@@ -1,0 +1,183 @@
+.galleryTitle{
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 76px;
+    color: #B96118;
+    border-bottom:3px solid #16145F;
+    margin-bottom: 80px;
+    padding-bottom: 16px;
+    padding-top: 120px;
+    display: flex;
+    justify-self: flex-start;
+    max-width: 385px;
+    white-space: nowrap;
+}
+.photos{
+    display: grid;
+    grid-template-columns:1024px 1fr;
+    column-gap:20px;
+    margin-bottom: 140px;
+}
+.galleryFirstPart{
+    padding-left: 50px;
+    max-width: 1024px;
+    width: 100%;
+}
+.galleryFirstDownPart{
+    display: flex;
+    align-items: center;
+}
+.photo1div{
+    max-width: 1024px;
+    width: 100%;
+    height: 485px;
+    margin-bottom: 32px;
+}
+.photo1{
+    border-radius: 80px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.photo2div{
+    max-width:502px;
+    width: 100%;
+    height: 280px;
+    margin-right: 20px;
+}
+.photo2{
+    border-radius: 80px;
+    width: 100%;
+    height: 100%;
+}
+.photo3div{
+    max-width:502px;
+    width: 100%;
+    height: 280px;
+}
+.photo3{
+    border-radius: 80px;
+    height: 100%;
+    width: 100%;
+}
+.gallerySecondPart{
+    max-width: 800px;
+    width: 100%;
+    padding-right: 50px;
+}
+.photo4div{
+    max-width:800px;
+    width: 100%;
+    height: 280px;
+}
+.photo4{
+    border-radius: 80px;
+    height: 100%;
+    width: 100%;
+}
+.photo5div{
+    max-width:800px;
+    width: 100%;
+    height: 497px;
+    margin-top: 20px;
+}
+.photo5{
+    border-radius: 80px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+@media only screen and (min-width:1420px) and (max-width: 1750px) {
+    .photos{
+        display: grid;
+        grid-template-columns:800px 1fr;
+        column-gap:10px;
+        margin-bottom: 140px;
+    }
+    .galleryFirstPart{
+        padding-left: 40px;
+        max-width: 800px;
+    }
+    .photo1div{
+        max-width: 800px;
+        height: 485px;
+        margin-bottom: 22px;
+    }
+    .photo2div{
+        max-width:400px;
+        height: 280px;
+        margin-right: 20px;
+    }
+    .photo3div{
+        max-width:400px;
+        width: 100%;
+        height: 280px;
+    }
+    .gallerySecondPart{
+        max-width: 700px;
+        padding-right: 50px;
+    }
+    .photo4div{
+        max-width:700px;
+        height: 280px;
+    }
+    .photo5div{
+        max-width:700px;
+        height: 497px;
+        margin-top: 20px;
+    }
+    .galleryTitle{
+        font-size: 55px;
+        line-height: 62px;
+        padding-bottom: 13px;
+    }
+}
+@media only screen and (min-width:1024px) and (max-width: 1420px) {
+    .galleryTitle{
+        font-size: 55px;
+        line-height: 62px;
+        padding-bottom: 13px;
+    }
+    .photos{
+        display: grid;
+        grid-template-columns:550px 1fr;
+        column-gap:10px;
+        margin-bottom: 140px;
+    }
+    .galleryFirstPart{
+        padding-left: 40px;
+        max-width: 550px;
+    }
+    .photo1div{
+        max-width: 550px;
+        height: 485px;
+        margin-bottom: 22px;
+    }
+    .photo2div{
+        max-width:300px;
+        height: 280px;
+        margin-right: 20px;
+    }
+    .photo3div{
+        max-width:250px;
+        width: 100%;
+        height: 280px;
+    }
+    .gallerySecondPart{
+        max-width: 550px;
+        padding-right: 50px;
+    }
+    .photo4div{
+        max-width: 550px;
+        height: 280px;
+    }
+    .photo5div{
+        max-width: 550px;
+        height: 497px;
+        margin-top: 20px;
+    }
+}
+
+

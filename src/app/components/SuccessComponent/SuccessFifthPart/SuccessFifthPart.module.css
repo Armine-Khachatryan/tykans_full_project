@@ -1,0 +1,63 @@
+/*.swiper{*/
+/*    background-color:  #F4EBEB;*/
+/*}*/
+/*.sliderInside{*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    max-width: 1285px;*/
+/*    width: 100%;*/
+/*    margin: 0 auto;*/
+/*    padding: 100px 15px;*/
+/*}*/
+
+/*.upComaDiv{*/
+/*    display: flex;*/
+/*    margin-right: 35px;*/
+/*    align-self:flex-start;*/
+/*    width: 80px;*/
+/*    height: 80px;*/
+/*}*/
+
+/*.textSlider{*/
+/*    max-width: 1000px;*/
+/*    width: 100%;*/
+/*    font-family: Effra_Trial_Regular, sans-serif;*/
+/*    font-style: normal;*/
+/*    font-weight: 400;*/
+/*    font-size: 48px;*/
+/*    line-height: 72px;*/
+/*    color: #16145F;*/
+/*    margin: auto;*/
+/*}*/
+
+/*.nameSurname{*/
+/*    font-family: Effra_Trial_Regular, sans-serif;*/
+/*    font-style: italic;*/
+/*    font-weight: 400;*/
+/*    font-size: 48px;*/
+/*    line-height: 72px;*/
+/*    color: #92374D;*/
+/*    padding-left: 115px;*/
+/*}*/
+
+/*.description{*/
+/*    font-family: Effra_Trial_Regular, sans-serif;*/
+/*    font-style: italic;*/
+/*    font-weight: 400;*/
+/*    font-size: 32px;*/
+/*    line-height: 48px;*/
+/*    color: #16145F;*/
+/*    padding-left: 115px;*/
+/*}*/
+
+/*.downComaDiv{*/
+/*    margin-left: 35px;*/
+/*    width: 80px;*/
+/*    height: 80px;*/
+/*    display: flex;*/
+/*    align-self: flex-end;*/
+/*}*/
+
+/*.dots{*/
+/*    font-size: 60px;*/
+/*}*/

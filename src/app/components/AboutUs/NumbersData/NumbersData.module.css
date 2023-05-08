@@ -1,0 +1,250 @@
+.numbersWhole{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-top: 100px;
+    max-width: 1440px;
+    width: 100%;
+}
+.titleNumbers{
+    text-align: center;
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 76px;
+    color: #EAB531;
+    margin-bottom: 40px;
+}
+.subTitleNumbers{
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 60px;
+    margin:40px auto 180px;
+    max-width: 1015px;
+    width: 100%;
+    color: #16145F;
+}
+.numbersBlock{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.numbersDiv{
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 200px;
+}
+.numbersDiv:first-child .number{
+    color:#6AAB4F;
+}
+.numbersDiv:nth-child(2) .number{
+    color: #16145F;
+}
+.numbersDiv:nth-child(3) .number{
+    color:#92374D;
+}
+.numbersDiv:nth-child(4) .number{
+    color: #B96118;
+}
+.numbersDiv:nth-child(5) .number{
+    color:#EAB531;
+}
+.numbersDiv:nth-child(6) .number{
+    color: #6AAB4F;
+}
+.numbersDiv:nth-child(7) .number{
+    color:#92374D;
+}
+.numbersDiv:nth-child(8) .number{
+    color: #B96118;
+}
+.numbersDiv:nth-child(9) .number{
+    color:#16145F;
+}
+.numbersDiv:nth-child(10) .number{
+    color: #6AAB4F;
+}
+.numbersDiv:nth-child(11) .number{
+    color:  #16145F;
+}
+.numbersDiv:nth-child(12) .number{
+    color: #92374D;
+}
+.numbersDiv:nth-child(13) .number{
+    color: #B96118;
+}
+.numbersDiv:nth-child(14) .number{
+    color:#EAB531;
+}
+.numbersDiv:nth-child(15) .number{
+    color: #6AAB4F;
+}
+.number{
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 160px;
+    line-height: 190px;
+    margin-bottom: 50px;
+}
+.text{
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    color: #16145F;
+}
+.btnsDivNumbers{
+    display: flex;
+    margin: 40px auto 160px;
+}
+.firstButton{
+    margin-right: 24px;
+}
+@media only screen and (min-width:1024px) and (max-width: 1440px) {
+    .titleNumbers{
+        font-size: 62px;
+        line-height: 66px;
+        margin-bottom: 32px;
+    }
+    .subTitleNumbers{
+        font-size: 40px;
+        line-height: 58px;
+        text-align: center;
+        margin:40px auto 100px;
+        /*max-width: 1015px;*/
+    }
+    .numbersDiv{
+        max-width: 400px;
+        width: 100%;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    .number{
+        font-size: 120px;
+        line-height: 160px;
+        margin-bottom: 0
+    }
+    .text{
+       max-width: 400px;
+    }
+}
+@media only screen and (min-width:918px) and (max-width: 1024px) {
+    .titleNumbers{
+        font-size: 60px;
+        line-height: 62px;
+        margin-bottom: 32px;
+    }
+    .subTitleNumbers{
+        font-size: 40px;
+        line-height: 50px;
+        text-align: center;
+        margin:20px auto 80px;
+        /*max-width: 1015px;*/
+    }
+    .numbersDiv{
+        max-width: 400px;
+        width: 100%;
+        margin-bottom: 80px;
+        text-align: center;
+    }
+    .number{
+        font-size: 100px;
+        line-height: 120px;
+        margin-bottom: 0
+    }
+    .text{
+        max-width: 400px;
+        width: 100%;
+    }
+}
+@media only screen and (min-width:648px) and (max-width: 918px) {
+    .titleNumbers{
+        font-size: 32px;
+        line-height: 38px;
+        margin-bottom: 22px;
+    }
+    .subTitleNumbers{
+        font-size:24px;
+        line-height: 30px;
+        text-align: center;
+        margin:20px auto 30px;
+    }
+    .numbersDiv{
+        max-width: 300px;
+        width: 100%;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .number{
+        font-size: 100px;
+        line-height: 120px;
+        margin-bottom: 0
+    }
+    .text{
+        max-width: 300px;
+        width: 100%;
+        font-size:24px;
+        line-height: 30px;
+    }
+    .btnsDivNumbers{
+        display: flex;
+        margin: 0px auto 50px;
+    }
+    .numbersWhole{
+        padding-top:30px;
+    }
+}
+@media only screen and (max-width: 572px) {
+    .btnsDivNumbers {
+        flex-direction: column;
+        align-items: center;
+        margin: 0px auto 50px;
+    }
+    .firstButton{
+        margin-right: 0;
+    }
+}
+@media only screen and (max-width: 648px) {
+    .numbersWhole{
+        padding-top:30px;
+    }
+    .titleNumbers{
+        font-size: 32px;
+        line-height: 38px;
+        margin-bottom: 22px;
+    }
+    .subTitleNumbers{
+        font-size:24px;
+        line-height: 30px;
+        text-align: center;
+        margin:20px auto 30px;
+        /*max-width: 1015px;*/
+    }
+    .numbersDiv{
+        max-width: 300px;
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .number{
+        font-size: 60px;
+        line-height: 80px;
+        margin-bottom: 0
+    }
+    .text{
+        max-width: 300px;
+        width: 100%;
+        font-size:24px;
+        line-height: 30px;
+    }
+
+    .numbersBlock{
+        justify-content: center;
+    }
+}

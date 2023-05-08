@@ -1,0 +1,278 @@
+.footerWhole{
+    position: relative;
+    padding-top: 60px;
+    padding-bottom: 24px;
+    background-image: url("../../assets/images/FooterBack.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background: #16145F;*/
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+}
+.footerUp{
+    display: flex;
+    justify-content: space-between;
+}
+.footer1{
+    display: flex;
+    flex-direction: column;
+}
+.footerMobileWhole{
+    display: none;
+}
+.footerLogo{
+    margin-bottom: 8px;
+    width: 200px;
+    height: 47px;
+}
+.footerIcons{
+    display: flex;
+    margin-top: 8px;
+    margin-bottom: 60px;
+ }
+.footer2{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.footerTitle{
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+.footerContactsDiv{
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.footerContact{
+    margin-left: 4px;
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+.footerInfo{
+    margin-bottom: 8px;
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.footerImg{
+    margin-top: 30px;
+}
+
+.yellowVint{
+    position: absolute;
+    top:20%;
+    right: 4%;
+    width: 115px;
+    height: 115px;
+    margin:-60px 0 0 -60px;
+}
+.greenVint{
+    position: absolute;
+    top:13%;
+    right: 11%;
+    width: 80px;
+    height: 80px;
+    margin:-60px 0 0 -60px;
+    animation-direction: reverse;
+}
+.orangeVint {
+    position: absolute;
+    top:3%;
+    right: 2%;
+    width: 140px;
+    height: 140px;
+    margin: -60px 0 0 -60px;
+}
+.footerIcon{
+    margin-right: 8px;
+}
+.footerIcon:last-child{
+    margin-right: 0;
+}
+.footerBelowPart{
+    padding-top: 24px;
+    border-top: 1px solid #F9F9F9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footerBelowText{
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+.rightOne{
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+.footerBelowText:first-child{
+    padding-right: 8px;
+    border-right:1px solid #F9F9F9;
+    margin-right: 8px;
+}
+.footerBelowLeft{
+    display: flex;
+    align-items: center;
+}
+.footerWebPart{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.footer1Mobile{
+    margin-bottom: 24px;
+}
+.footerLogoMobile{
+    max-width: 150px;
+    width: 100%;
+}
+.footerMobileTitle{
+    font-family: Effra_Trial_Bold, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+.footerMobileText{
+    display: flex;
+    align-items: center;
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 4px;
+}
+.footerTitleMobile{
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+.footerMobile2{
+    margin-bottom: 24px;
+}
+.footerMobile3{
+    margin-bottom: 24px;
+}
+.footerContactsDivMobile{
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+}
+.footerContactMobile{
+    margin-left: 4px;
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.footerIconsMobile{
+    display: flex;
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+    border-bottom: 1px solid #F9F9F9;
+}
+.footerBelowMobile{
+    display: flex;
+    align-items: center;
+}
+.footerBelow1Mobile{
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-right: 4px;
+}
+.footerBelow2Mobile{
+    padding-left: 4px;
+    padding-right: 4px;
+    border-left: 1px solid #FFFFFF;
+    border-right: 1px solid #FFFFFF;
+    margin-right: 4px;
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.footerBelow3Mobile{
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    white-space: nowrap;
+    cursor: pointer;
+}
+@media only screen and (max-width: 1500px) {
+    .greenVint{
+        display: none;
+    }
+    .yellowVint{
+        display: none;
+    }
+    .orangeVint {
+        display: none;
+    }
+}
+@media only screen and (max-width:1030px) {
+    iframe{
+        display: none;
+    }
+    .footer{
+        display: none;
+    }
+    .footerMobileWhole{
+        display: block;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .footer1{
+        max-width: 250px;
+        width: 100%;
+    }
+    .footerIcons{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

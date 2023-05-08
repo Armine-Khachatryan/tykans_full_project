@@ -1,0 +1,208 @@
+.aboutUsTitle{
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 76px;
+    color:#16145F;
+    margin-top:100px;
+    margin-bottom: 24px;
+}
+.aboutUsText{
+    max-width: 703px;
+    width: 100%;
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #24205B;
+    margin-bottom: 170px;
+}
+.energyPartWhole{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 18px;
+    gap: 15px;
+}
+.energyLeft{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.energyDiv{
+    display: flex;
+    flex-direction: column;
+    max-width: 412px;
+    width: 100%;
+}
+.energyGreenTitle{
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    color: #6AAB4F;
+    margin-bottom: 16px;
+}
+.energyText{
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #16145F;
+}
+.energyBlueTitle{
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    color: #16145F;
+    margin-bottom: 16px;
+}
+.energyMiddle{
+    width: 765px;
+    height: 1197px;
+}
+.energyRight{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.energyYellowTitle{
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    color: #EAB531;
+    margin-bottom: 16px;
+}
+.energyOrangeTitle{
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 16px;
+    color: #B96118;
+}
+@media only screen and (min-width:1024px) and (max-width: 1440px) {
+    .aboutUsTitle{
+        font-size: 62px;
+        line-height: 66px;
+    }
+}
+@media only screen and (min-width:768px) and (max-width: 1024px) {
+    .aboutUsTitle{
+        font-size: 60px;
+        line-height: 62px;
+    }
+    .energyGreenTitle{
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .energyBlueTitle{
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .energyYellowTitle{
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .energyOrangeTitle{
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .aboutUsText{
+        margin-bottom: 80px
+    }
+}
+@media only screen and (min-width:425px) and (max-width: 768px) {
+    .aboutUsTitle{
+        font-size: 32px;
+        line-height: 38px;
+        text-align: center;
+        margin-top:80px;
+    }
+    .aboutUsText{
+        font-size: 24px;
+        line-height: 30px;
+        text-align: center;
+        margin-bottom: 80px;
+    }
+    .energyGreenTitle{
+        font-size: 32px;
+        line-height: 35px;
+    }
+    .energyBlueTitle{
+        font-size: 32px;
+        line-height: 35px;
+    }
+    .energyYellowTitle{
+        font-size: 32px;
+        line-height: 35px;
+    }
+    .energyOrangeTitle{
+        font-size: 32px;
+        line-height: 35px;
+    }
+    .energyText{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .energyMiddle{
+        display: none;
+    }
+    .energyDiv{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+@media only screen  and (max-width: 425px) {
+    .aboutUsTitle{
+        font-size: 32px;
+        line-height: 38px;
+        text-align: center;
+        margin-top:50px;
+    }
+    .aboutUsText{
+        font-size: 24px;
+        line-height: 30px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .energyGreenTitle{
+        font-size: 32px;
+        line-height: 35px;
+    }
+    .energyBlueTitle{
+        font-size: 32px;
+        line-height: 35px;
+    }
+    .energyYellowTitle{
+        font-size: 32px;
+        line-height: 35px;
+    }
+    .energyOrangeTitle{
+        font-size: 32px;
+        line-height: 35px;
+    }
+    .energyText{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .energyMiddle{
+        display: none;
+    }
+    .energyPartWhole{
+        flex-direction: column;
+    }
+    .energyDiv{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+

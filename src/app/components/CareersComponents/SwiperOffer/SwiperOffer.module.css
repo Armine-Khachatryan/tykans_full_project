@@ -1,0 +1,66 @@
+.offersWholeMobile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 120px;
+}
+.offersTextMobile{
+    margin-top: 50px;
+    font-size: 28px;
+    line-height: 42px;
+    text-align: center;
+}
+.offersImgDivMobile{
+    aspect-ratio: 1/1;
+    width: 100%;
+    max-width: 350px;
+    height: 350px;
+}
+.offersImgMobile{
+    border-radius: 360px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+@media only screen and (min-width:425px) and (max-width: 768px) {
+    .offersImgDivMobile{
+        max-width: 300px;
+        height: 300px;
+        border-radius: 50px;
+    }
+    .offersImgMobile{
+        max-width: 300px;
+        height: 300px;
+        object-fit: cover;
+    }
+    .offersTextMobile{
+        margin-top: 50px;
+        font-size: 24px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .offersWholeMobile{
+        margin-bottom: 50px;
+    }
+}
+@media only screen  and (max-width: 425px) {
+    .offersImgDivMobile{
+        max-width: 250px;
+        height:250px;
+        border-radius: 50px;
+    }
+    .offersImgMobile{
+        max-width: 250px;
+        height:250px;
+        object-fit: cover;
+    }
+    .offersTextMobile{
+        margin-top: 30px;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .offersWholeMobile{
+        margin-bottom: 50px;
+    }
+}

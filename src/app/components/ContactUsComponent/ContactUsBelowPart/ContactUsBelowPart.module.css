@@ -1,0 +1,265 @@
+.wholeBelowContact{
+    padding-top: 128px;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.leftPart{
+    display: flex;
+    flex-direction: column;
+}
+
+.titleFind{
+    margin-top: 32px;
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 76px;
+    color: #EAB531;
+    margin-bottom: 105px;
+}
+
+.addressContactSocial{
+    display: flex;
+    justify-content: space-between;
+}
+.detailsDiv{
+    display: flex;
+    flex-direction: column;
+    margin-right: 70px;
+}
+
+.detailsTitle{
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    color: #16145F;
+    margin-bottom: 16px;
+}
+
+.getDirection{
+    display: flex;
+    align-items: center;
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #92374D;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.detailsAddress{
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #16145F;
+    margin-bottom: 22px;
+    width: 188px;
+}
+
+.detailsContact{
+    display: flex;
+    align-items: center;
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #16145F;
+}
+
+.rightPart{
+    width: 640px;
+    height: 645px;
+    border-radius:5px;
+    margin-bottom: 127px;
+}
+
+.frame{
+    width: 640px;
+    height: 645px;
+    border-radius:5px;
+    background-color: blue;
+}
+.iconDiv{
+    cursor: pointer;
+}
+.leftPart{
+    position: relative;
+}
+.redIconDiv{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    bottom: 50px;
+}
+.yellowIconDiv{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    bottom: 120px;
+    left: 180px;
+    animation-direction: reverse;
+}
+@media only screen and (min-width:1031px) and (max-width: 1440px) {
+    .wholeBelowContact{
+        flex-direction: column;
+    }
+    .rightPart{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .redIconDiv{
+        display: none;
+    }
+    .yellowIconDiv{
+        display: none;
+    }
+}
+@media only screen and (min-width:768px) and (max-width: 1030px) {
+    .titleFind{
+        margin-top: 20px;
+        font-size: 50px;
+        line-height: 55px;
+        margin-bottom:32px;
+    }
+    .detailsTitle{
+        font-size: 36px;
+        line-height: 44px;
+    }
+    .redIconDiv{
+        display: none;
+    }
+    .yellowIconDiv{
+        display: none;
+    }
+    .detailsAddress{
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .detailsContact{
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .rightPart{
+        width: unset;
+        height: unset;
+        margin-bottom: 50px;
+    }
+    .wholeBelowContact{
+        padding-top: 70px;
+        padding-bottom: 50px
+    }
+}
+@media only screen and (min-width:425px) and (max-width: 768px) {
+    .titleFind{
+        margin-top: 0;
+        font-size: 32px;
+        line-height:38px;
+        margin-bottom: 32px;
+        text-align: center;
+    }
+    .detailsTitle{
+        font-size:24px;
+        line-height: 36px;
+    }
+    .redIconDiv{
+        display: none;
+    }
+    .yellowIconDiv{
+        display: none;
+    }
+    .addressContactSocial{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .rightPart{
+        display: none;
+    }
+    .detailsAddress{
+        font-size: 20px;
+        line-height: 30px;
+        width: 300px;
+        text-align: center;
+    }
+    .detailsContact{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .wholeBelowContact{
+        padding-top: 50px;
+        justify-content: center;
+        padding-bottom: 50px
+    }
+    .detailsTitle{
+        text-align: center;
+    }
+    .detailsDiv{
+        margin-top: 0;
+        margin-right: 0;
+    }
+    .iconsWhole{
+        margin-bottom: 50px;
+    }
+}
+@media only screen  and (max-width: 425px) {
+    .titleFind{
+        margin-top: 0;
+        font-size: 32px;
+        line-height: 38px;
+        margin-bottom: 22px;
+        text-align: center;
+    }
+    .detailsTitle{
+        font-size:24px;
+        line-height: 36px;
+    }
+    .redIconDiv{
+        display: none;
+    }
+    .yellowIconDiv{
+        display: none;
+    }
+    .addressContactSocial{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .rightPart{
+        display: none;
+    }
+    .detailsAddress{
+        font-size: 20px;
+        line-height: 22px;
+        width: 300px;
+        text-align: center;
+    }
+    .detailsContact{
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .wholeBelowContact{
+        padding-top: 50px;
+        justify-content: center;
+        padding-bottom: 50px
+    }
+    .detailsTitle{
+        text-align: center;
+    }
+    .detailsDiv{
+        margin-top: 0;
+        margin-right: 0;
+    }
+    .iconsWhole{
+        margin-bottom: 50px;
+    }
+}

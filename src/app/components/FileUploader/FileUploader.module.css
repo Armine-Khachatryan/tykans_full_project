@@ -1,0 +1,27 @@
+.attachedButton{
+    display: flex;
+    align-items: center;
+    background: #16145F;
+    border-radius: 360px;
+    padding: 20px 51px;
+    text-align: center;
+    font-family: Effra_Trial_Regular, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color:#FFFFFF;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+@media only screen  and (max-width: 768px) {
+    .attachedButton{
+        padding: 15px 30px;
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .imgStyle{
+        width: 25px;
+        height: 18px;
+    }
+}

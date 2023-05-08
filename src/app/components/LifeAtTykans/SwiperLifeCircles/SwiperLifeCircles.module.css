@@ -1,0 +1,59 @@
+@media only screen and (max-width: 1023px) {
+    .lifeTypesWholeMobile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 74px;
+        margin-bottom: 100px;
+    }
+    .titleCelebrateMobile{
+        font-family: Effra_Trial_Bold, sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        color: #92374D;
+        margin-bottom: 8px;
+    }
+    .textDivLife{
+        text-align: center;
+        margin-bottom: 24px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .belowPartLifeTypes {
+        max-width: 500px;
+        width: 100%;
+        height: 500px;
+        margin: 0 auto 50px;
+    }
+    .titleCelebrateMobile{
+        font-size: 62px;
+        line-height:66px
+    }
+}
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+    .belowPartLifeTypes{
+        max-width: 300px;
+        width: 100%;
+        height: 300px;
+        margin: 0 auto 50px;
+    }
+    .titleCelebrateMobile{
+        font-size: 32px;
+        line-height: 38px;
+    }
+}
+@media only screen and (max-width: 425px){
+    .belowPartLifeTypes{
+        max-width: 250px;
+        width: 100%;
+        height: 250px;
+        margin: 0 auto 50px;
+    }
+    .textDivLife{
+        margin-bottom: 12px;
+    }
+    .titleCelebrateMobile{
+        font-size: 32px;
+        line-height: 38px;
+    }
+}

@@ -1,0 +1,92 @@
+.mainTitle{
+    font-family: Effra_Trial_Bold, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 72px;
+    color: #16145F;
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.title{
+    font-family: Effra_Trial_Medium, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 57px;
+    color: #16145F;
+    margin-bottom: 64px;
+}
+.text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #16145F;
+    margin-bottom: 100px;
+}
+@media only screen and (min-width:1024px) and (max-width: 1440px) {
+    .mainTitle{
+        font-size: 55px;
+        line-height: 62px;
+    }
+    .title{
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 32px;
+    }
+}
+@media only screen and (min-width:768px) and (max-width: 1024px) {
+    .mainTitle {
+        font-size: 50px;
+        line-height: 55px;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    .title {
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 32px;
+    }
+}
+@media only screen and (min-width:425px) and (max-width: 768px) {
+    .mainTitle{
+        font-size: 32px;
+        line-height:38px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .title{
+        font-size: 24px;
+        line-height:30px;
+        margin-bottom: 22px;
+    }
+    .text{
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 40px;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .mainTitle{
+        font-size: 24px;
+        line-height:29px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .title{
+        font-size: 24px;
+        line-height:30px;
+        margin-bottom: 22px;
+        text-align: center;
+    }
+    .text{
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        margin: 0 auto 40px;
+        max-width: 400px;
+        width: 100%;
+    }
+}
